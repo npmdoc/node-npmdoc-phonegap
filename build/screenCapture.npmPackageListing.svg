@@ -1,158 +1,158 @@
 <svg height="2478" width="720" xmlns="http://www.w3.org/2000/svg">
 <rect height="2478" fill="#555" width="720"></rect>
 <text fill="#7f7" font-family="Courier New" font-size="12" xml:space="preserve">
-<tspan x="10" y="26">  0.  2017-04-03 11:36:31 +0000   349718 byte  .</tspan>
-<tspan x="10" y="42">  1.  2017-04-03 11:36:31 +0000      721 byte  COPYRIGHT</tspan>
-<tspan x="10" y="58">  2.  2017-04-03 11:36:31 +0000    11362 byte  LICENSE</tspan>
-<tspan x="10" y="74">  3.  2017-04-03 11:36:31 +0000      418 byte  NOTICE</tspan>
-<tspan x="10" y="90">  4.  2017-04-03 11:36:31 +0000     8359 byte  README.md</tspan>
-<tspan x="10" y="106">  5.  2017-04-03 11:36:31 +0000     1381 byte  bin/phonegap.js</tspan>
-<tspan x="10" y="122">  6.  2017-04-03 11:36:31 +0000      211 byte  doc/cli/help.analytics.txt</tspan>
-<tspan x="10" y="138">  7.  2017-04-03 11:36:31 +0000      743 byte  doc/cli/help.build.txt</tspan>
-<tspan x="10" y="154">  8.  2017-04-03 11:36:31 +0000      709 byte  doc/cli/help.compile.txt</tspan>
-<tspan x="10" y="170">  9.  2017-04-03 11:36:31 +0000      295 byte  doc/cli/help.cordova.txt</tspan>
-<tspan x="10" y="186"> 10.  2017-04-03 11:36:31 +0000     1711 byte  doc/cli/help.create.txt</tspan>
-<tspan x="10" y="202"> 11.  2017-04-03 11:36:31 +0000      706 byte  doc/cli/help.emulate.txt</tspan>
-<tspan x="10" y="218"> 12.  2017-04-03 11:36:31 +0000      221 byte  doc/cli/help.help.txt</tspan>
-<tspan x="10" y="234"> 13.  2017-04-03 11:36:31 +0000      216 byte  doc/cli/help.info.txt</tspan>
-<tspan x="10" y="250"> 14.  2017-04-03 11:36:31 +0000      702 byte  doc/cli/help.install.txt</tspan>
-<tspan x="10" y="266"> 15.  2017-04-03 11:36:31 +0000      577 byte  doc/cli/help.local.build.txt</tspan>
-<tspan x="10" y="282"> 16.  2017-04-03 11:36:31 +0000      687 byte  doc/cli/help.local.install.txt</tspan>
-<tspan x="10" y="298"> 17.  2017-04-03 11:36:31 +0000      510 byte  doc/cli/help.local.plugin.add.txt</tspan>
-<tspan x="10" y="314"> 18.  2017-04-03 11:36:31 +0000      357 byte  doc/cli/help.local.plugin.list.txt</tspan>
-<tspan x="10" y="330"> 19.  2017-04-03 11:36:31 +0000      520 byte  doc/cli/help.local.plugin.remove.txt</tspan>
-<tspan x="10" y="346"> 20.  2017-04-03 11:36:31 +0000      684 byte  doc/cli/help.local.plugin.txt</tspan>
-<tspan x="10" y="362"> 21.  2017-04-03 11:36:31 +0000      608 byte  doc/cli/help.local.run.txt</tspan>
-<tspan x="10" y="378"> 22.  2017-04-03 11:36:31 +0000      655 byte  doc/cli/help.local.txt</tspan>
-<tspan x="10" y="394"> 23.  2017-04-03 11:36:31 +0000      697 byte  doc/cli/help.platform.add.txt</tspan>
-<tspan x="10" y="410"> 24.  2017-04-03 11:36:31 +0000      187 byte  doc/cli/help.platform.check.txt</tspan>
-<tspan x="10" y="426"> 25.  2017-04-03 11:36:31 +0000      337 byte  doc/cli/help.platform.list.txt</tspan>
-<tspan x="10" y="442"> 26.  2017-04-03 11:36:31 +0000      507 byte  doc/cli/help.platform.remove.txt</tspan>
-<tspan x="10" y="458"> 27.  2017-04-03 11:36:31 +0000      954 byte  doc/cli/help.platform.txt</tspan>
-<tspan x="10" y="474"> 28.  2017-04-03 11:36:31 +0000      208 byte  doc/cli/help.platform.update.txt</tspan>
-<tspan x="10" y="490"> 29.  2017-04-03 11:36:31 +0000     1326 byte  doc/cli/help.plugin.add.txt</tspan>
-<tspan x="10" y="506"> 30.  2017-04-03 11:36:31 +0000      185 byte  doc/cli/help.plugin.list.txt</tspan>
-<tspan x="10" y="522"> 31.  2017-04-03 11:36:31 +0000      616 byte  doc/cli/help.plugin.remove.txt</tspan>
-<tspan x="10" y="538"> 32.  2017-04-03 11:36:31 +0000      209 byte  doc/cli/help.plugin.search.txt</tspan>
-<tspan x="10" y="554"> 33.  2017-04-03 11:36:31 +0000      614 byte  doc/cli/help.plugin.txt</tspan>
-<tspan x="10" y="570"> 34.  2017-04-03 11:36:31 +0000      844 byte  doc/cli/help.prepare.txt</tspan>
-<tspan x="10" y="586"> 35.  2017-04-03 11:36:31 +0000      913 byte  doc/cli/help.push.txt</tspan>
-<tspan x="10" y="602"> 36.  2017-04-03 11:36:31 +0000      446 byte  doc/cli/help.remote.build.txt</tspan>
-<tspan x="10" y="618"> 37.  2017-04-03 11:36:31 +0000      520 byte  doc/cli/help.remote.install.txt</tspan>
-<tspan x="10" y="634"> 38.  2017-04-03 11:36:31 +0000      621 byte  doc/cli/help.remote.login.txt</tspan>
-<tspan x="10" y="650"> 39.  2017-04-03 11:36:31 +0000      113 byte  doc/cli/help.remote.logout.txt</tspan>
-<tspan x="10" y="666"> 40.  2017-04-03 11:36:31 +0000      522 byte  doc/cli/help.remote.run.txt</tspan>
-<tspan x="10" y="682"> 41.  2017-04-03 11:36:31 +0000      474 byte  doc/cli/help.remote.txt</tspan>
-<tspan x="10" y="698"> 42.  2017-04-03 11:36:31 +0000      868 byte  doc/cli/help.run.txt</tspan>
-<tspan x="10" y="714"> 43.  2017-04-03 11:36:31 +0000      491 byte  doc/cli/help.save.txt</tspan>
-<tspan x="10" y="730"> 44.  2017-04-03 11:36:31 +0000     1813 byte  doc/cli/help.serve.txt</tspan>
-<tspan x="10" y="746"> 45.  2017-04-03 11:36:31 +0000      401 byte  doc/cli/help.template.list.txt</tspan>
-<tspan x="10" y="762"> 46.  2017-04-03 11:36:31 +0000      345 byte  doc/cli/help.template.search.txt</tspan>
-<tspan x="10" y="778"> 47.  2017-04-03 11:36:31 +0000      343 byte  doc/cli/help.template.txt</tspan>
-<tspan x="10" y="794"> 48.  2017-04-03 11:36:31 +0000     1710 byte  doc/cli/help.txt</tspan>
-<tspan x="10" y="810"> 49.  2017-04-03 11:36:31 +0000     2206 byte  lib/cli.js</tspan>
-<tspan x="10" y="826"> 50.  2017-04-03 11:36:31 +0000     5527 byte  lib/cli/analytics.js</tspan>
-<tspan x="10" y="842"> 51.  2017-04-03 11:36:31 +0000     3343 byte  lib/cli/argv.js</tspan>
-<tspan x="10" y="858"> 52.  2017-04-03 11:36:31 +0000     1312 byte  lib/cli/cordova.js</tspan>
-<tspan x="10" y="874"> 53.  2017-04-03 11:36:31 +0000     1210 byte  lib/cli/create.js</tspan>
-<tspan x="10" y="890"> 54.  2017-04-03 11:36:31 +0000     1321 byte  lib/cli/help.js</tspan>
-<tspan x="10" y="906"> 55.  2017-04-03 11:36:31 +0000     1062 byte  lib/cli/install.js</tspan>
-<tspan x="10" y="922"> 56.  2017-04-03 11:36:31 +0000     1098 byte  lib/cli/local.js</tspan>
-<tspan x="10" y="938"> 57.  2017-04-03 11:36:31 +0000      539 byte  lib/cli/push.js</tspan>
-<tspan x="10" y="954"> 58.  2017-04-03 11:36:31 +0000     1165 byte  lib/cli/remote.build.js</tspan>
-<tspan x="10" y="970"> 59.  2017-04-03 11:36:31 +0000      936 byte  lib/cli/remote.install.js</tspan>
-<tspan x="10" y="986"> 60.  2017-04-03 11:36:31 +0000      582 byte  lib/cli/remote.js</tspan>
-<tspan x="10" y="1002"> 61.  2017-04-03 11:36:31 +0000     2111 byte  lib/cli/remote.login.js</tspan>
-<tspan x="10" y="1018"> 62.  2017-04-03 11:36:31 +0000      473 byte  lib/cli/remote.logout.js</tspan>
-<tspan x="10" y="1034"> 63.  2017-04-03 11:36:31 +0000      938 byte  lib/cli/remote.run.js</tspan>
-<tspan x="10" y="1050"> 64.  2017-04-03 11:36:31 +0000     1213 byte  lib/cli/serve.js</tspan>
-<tspan x="10" y="1066"> 65.  2017-04-03 11:36:31 +0000      489 byte  lib/cli/share.js</tspan>
-<tspan x="10" y="1082"> 66.  2017-04-03 11:36:31 +0000      619 byte  lib/cli/template.js</tspan>
-<tspan x="10" y="1098"> 67.  2017-04-03 11:36:31 +0000     1061 byte  lib/cli/template.list.js</tspan>
-<tspan x="10" y="1114"> 68.  2017-04-03 11:36:31 +0000      415 byte  lib/cli/template.search.js</tspan>
-<tspan x="10" y="1130"> 69.  2017-04-03 11:36:31 +0000      522 byte  lib/cli/unknown.js</tspan>
-<tspan x="10" y="1146"> 70.  2017-04-03 11:36:31 +0000     2461 byte  lib/cli/util/console.js</tspan>
-<tspan x="10" y="1162"> 71.  2017-04-03 11:36:31 +0000     5849 byte  lib/cli/util/sanitize-args.js</tspan>
-<tspan x="10" y="1178"> 72.  2017-04-03 11:36:31 +0000      319 byte  lib/cli/util/update-check.js</tspan>
-<tspan x="10" y="1194"> 73.  2017-04-03 11:36:31 +0000      365 byte  lib/cli/version.js</tspan>
-<tspan x="10" y="1210"> 74.  2017-04-03 11:36:31 +0000      215 byte  lib/common/config.js</tspan>
-<tspan x="10" y="1226"> 75.  2017-04-03 11:36:31 +0000     2672 byte  lib/common/config/global.js</tspan>
-<tspan x="10" y="1242"> 76.  2017-04-03 11:36:31 +0000     1686 byte  lib/common/config/local.js</tspan>
-<tspan x="10" y="1258"> 77.  2017-04-03 11:36:31 +0000     1140 byte  lib/cordova/index.js</tspan>
-<tspan x="10" y="1274"> 78.  2017-04-03 11:36:31 +0000      141 byte  lib/main.js</tspan>
-<tspan x="10" y="1290"> 79.  2017-04-03 11:36:31 +0000     2634 byte  lib/phonegap.js</tspan>
-<tspan x="10" y="1306"> 80.  2017-04-03 11:36:31 +0000    12204 byte  lib/phonegap/cordova.js</tspan>
-<tspan x="10" y="1322"> 81.  2017-04-03 11:36:31 +0000     6321 byte  lib/phonegap/create.js</tspan>
-<tspan x="10" y="1338"> 82.  2017-04-03 11:36:31 +0000     3964 byte  lib/phonegap/mode.js</tspan>
-<tspan x="10" y="1354"> 83.  2017-04-03 11:36:31 +0000     2253 byte  lib/phonegap/push.js</tspan>
-<tspan x="10" y="1370"> 84.  2017-04-03 11:36:31 +0000     2355 byte  lib/phonegap/remote.build.js</tspan>
-<tspan x="10" y="1386"> 85.  2017-04-03 11:36:31 +0000     2975 byte  lib/phonegap/remote.install.js</tspan>
-<tspan x="10" y="1402"> 86.  2017-04-03 11:36:31 +0000     2116 byte  lib/phonegap/remote.login.js</tspan>
-<tspan x="10" y="1418"> 87.  2017-04-03 11:36:31 +0000     1079 byte  lib/phonegap/remote.logout.js</tspan>
-<tspan x="10" y="1434"> 88.  2017-04-03 11:36:31 +0000     2974 byte  lib/phonegap/remote.run.js</tspan>
-<tspan x="10" y="1450"> 89.  2017-04-03 11:36:31 +0000     4431 byte  lib/phonegap/serve.js</tspan>
-<tspan x="10" y="1466"> 90.  2017-04-03 11:36:31 +0000     1662 byte  lib/phonegap/share.js</tspan>
-<tspan x="10" y="1482"> 91.  2017-04-03 11:36:31 +0000     1454 byte  lib/phonegap/template.list.js</tspan>
-<tspan x="10" y="1498"> 92.  2017-04-03 11:36:31 +0000     1688 byte  lib/phonegap/template.search.js</tspan>
-<tspan x="10" y="1514"> 93.  2017-04-03 11:36:31 +0000      892 byte  lib/phonegap/util/command.js</tspan>
-<tspan x="10" y="1530"> 94.  2017-04-03 11:36:31 +0000     7198 byte  lib/phonegap/util/connect-proxy.js</tspan>
-<tspan x="10" y="1546"> 95.  2017-04-03 11:36:31 +0000     7127 byte  lib/phonegap/util/dropbox.js</tspan>
-<tspan x="10" y="1562"> 96.  2017-04-03 11:36:31 +0000      272 byte  lib/phonegap/util/hex.js</tspan>
-<tspan x="10" y="1578"> 97.  2017-04-03 11:36:31 +0000      790 byte  lib/phonegap/util/network.js</tspan>
-<tspan x="10" y="1594"> 98.  2017-04-03 11:36:31 +0000      162 byte  lib/phonegap/util/opener.js</tspan>
-<tspan x="10" y="1610"> 99.  2017-04-03 11:36:31 +0000      164 byte  lib/phonegap/util/phonegap-build.js</tspan>
-<tspan x="10" y="1626">100.  2017-04-03 11:36:31 +0000     2281 byte  lib/phonegap/util/platform.js</tspan>
-<tspan x="10" y="1642">101.  2017-04-03 11:36:31 +0000     3332 byte  lib/phonegap/util/project.js</tspan>
-<tspan x="10" y="1658">102.  2017-04-03 11:36:31 +0000      636 byte  lib/phonegap/util/public/index.html</tspan>
-<tspan x="10" y="1674">103.  2017-04-03 11:36:31 +0000     1099 byte  lib/phonegap/version.js</tspan>
-<tspan x="10" y="1690">104.  2017-04-03 11:36:31 +0000     4699 byte  package.json</tspan>
-<tspan x="10" y="1706">105.  2017-04-03 11:36:31 +0000     1290 byte  spec/cli.spec.js</tspan>
-<tspan x="10" y="1722">106.  2017-04-03 11:36:31 +0000     2319 byte  spec/cli/app.spec.js</tspan>
-<tspan x="10" y="1738">107.  2017-04-03 11:36:31 +0000     2478 byte  spec/cli/cordova.spec.js</tspan>
-<tspan x="10" y="1754">108.  2017-04-03 11:36:31 +0000    11937 byte  spec/cli/create.spec.js</tspan>
-<tspan x="10" y="1770">109.  2017-04-03 11:36:31 +0000     2419 byte  spec/cli/help.spec.js</tspan>
-<tspan x="10" y="1786">110.  2017-04-03 11:36:31 +0000     2916 byte  spec/cli/install.spec.js</tspan>
-<tspan x="10" y="1802">111.  2017-04-03 11:36:31 +0000     3117 byte  spec/cli/local.spec.js</tspan>
-<tspan x="10" y="1818">112.  2017-04-03 11:36:31 +0000     1662 byte  spec/cli/push.spec.js</tspan>
-<tspan x="10" y="1834">113.  2017-04-03 11:36:31 +0000     4304 byte  spec/cli/remote.build.spec.js</tspan>
-<tspan x="10" y="1850">114.  2017-04-03 11:36:31 +0000     4350 byte  spec/cli/remote.install.spec.js</tspan>
-<tspan x="10" y="1866">115.  2017-04-03 11:36:31 +0000    10908 byte  spec/cli/remote.login.spec.js</tspan>
-<tspan x="10" y="1882">116.  2017-04-03 11:36:31 +0000     3461 byte  spec/cli/remote.logout.spec.js</tspan>
-<tspan x="10" y="1898">117.  2017-04-03 11:36:31 +0000     4222 byte  spec/cli/remote.run.spec.js</tspan>
-<tspan x="10" y="1914">118.  2017-04-03 11:36:31 +0000     2554 byte  spec/cli/remote.spec.js</tspan>
-<tspan x="10" y="1930">119.  2017-04-03 11:36:31 +0000     2882 byte  spec/cli/serve.spec.js</tspan>
-<tspan x="10" y="1946">120.  2017-04-03 11:36:31 +0000     1663 byte  spec/cli/share.spec.js</tspan>
-<tspan x="10" y="1962">121.  2017-04-03 11:36:31 +0000     2777 byte  spec/cli/template.list.spec.js</tspan>
-<tspan x="10" y="1978">122.  2017-04-03 11:36:31 +0000     2419 byte  spec/cli/template.search.spec.js</tspan>
-<tspan x="10" y="1994">123.  2017-04-03 11:36:31 +0000     2668 byte  spec/cli/template.spec.js</tspan>
-<tspan x="10" y="2010">124.  2017-04-03 11:36:31 +0000      647 byte  spec/cli/unknown.spec.js</tspan>
-<tspan x="10" y="2026">125.  2017-04-03 11:36:31 +0000    17187 byte  spec/cli/util/sanitize-args.spec.js</tspan>
-<tspan x="10" y="2042">126.  2017-04-03 11:36:31 +0000      489 byte  spec/cli/util/update-check.spec.js</tspan>
-<tspan x="10" y="2058">127.  2017-04-03 11:36:31 +0000     1153 byte  spec/cli/verbose.spec.js</tspan>
-<tspan x="10" y="2074">128.  2017-04-03 11:36:31 +0000     1667 byte  spec/cli/version.spec.js</tspan>
-<tspan x="10" y="2090">129.  2017-04-03 11:36:31 +0000     8792 byte  spec/common/config/global.spec.js</tspan>
-<tspan x="10" y="2106">130.  2017-04-03 11:36:31 +0000     4343 byte  spec/common/config/local.spec.js</tspan>
-<tspan x="10" y="2122">131.  2017-04-03 11:36:31 +0000      923 byte  spec/cordova/index.spec.js</tspan>
-<tspan x="10" y="2138">132.  2017-04-03 11:36:31 +0000      439 byte  spec/fixture/app-with-config/www/config.xml</tspan>
-<tspan x="10" y="2154">133.  2017-04-03 11:36:31 +0000      309 byte  spec/main.spec.js</tspan>
-<tspan x="10" y="2170">134.  2017-04-03 11:36:31 +0000     1096 byte  spec/phonegap.spec.js</tspan>
-<tspan x="10" y="2186">135.  2017-04-03 11:36:31 +0000      401 byte  spec/phonegap/app.spec.js</tspan>
-<tspan x="10" y="2202">136.  2017-04-03 11:36:31 +0000    16383 byte  spec/phonegap/cordova.spec.js</tspan>
-<tspan x="10" y="2218">137.  2017-04-03 11:36:31 +0000     9201 byte  spec/phonegap/create.spec.js</tspan>
-<tspan x="10" y="2234">138.  2017-04-03 11:36:31 +0000     2981 byte  spec/phonegap/mode.spec.js</tspan>
-<tspan x="10" y="2250">139.  2017-04-03 11:36:31 +0000      993 byte  spec/phonegap/push.spec.js</tspan>
-<tspan x="10" y="2266">140.  2017-04-03 11:36:31 +0000     5223 byte  spec/phonegap/remote.build.spec.js</tspan>
-<tspan x="10" y="2282">141.  2017-04-03 11:36:31 +0000     4069 byte  spec/phonegap/remote.install.spec.js</tspan>
-<tspan x="10" y="2298">142.  2017-04-03 11:36:31 +0000     5095 byte  spec/phonegap/remote.login.spec.js</tspan>
-<tspan x="10" y="2314">143.  2017-04-03 11:36:31 +0000     2492 byte  spec/phonegap/remote.logout.spec.js</tspan>
-<tspan x="10" y="2330">144.  2017-04-03 11:36:31 +0000     5483 byte  spec/phonegap/remote.run.spec.js</tspan>
-<tspan x="10" y="2346">145.  2017-04-03 11:36:31 +0000     6211 byte  spec/phonegap/serve.spec.js</tspan>
-<tspan x="10" y="2362">146.  2017-04-03 11:36:31 +0000      994 byte  spec/phonegap/share.spec.js</tspan>
-<tspan x="10" y="2378">147.  2017-04-03 11:36:31 +0000     1629 byte  spec/phonegap/template.list.spec.js</tspan>
-<tspan x="10" y="2394">148.  2017-04-03 11:36:31 +0000     1225 byte  spec/phonegap/template.search.spec.js</tspan>
-<tspan x="10" y="2410">149.  2017-04-03 11:36:31 +0000     1365 byte  spec/phonegap/util/network.spec.js</tspan>
-<tspan x="10" y="2426">150.  2017-04-03 11:36:31 +0000     3579 byte  spec/phonegap/util/platform.spec.js</tspan>
-<tspan x="10" y="2442">151.  2017-04-03 11:36:31 +0000     5638 byte  spec/phonegap/util/project.spec.js</tspan>
-<tspan x="10" y="2458">152.  2017-04-03 11:36:31 +0000      996 byte  spec/phonegap/version.spec.js</tspan>
+<tspan x="10" y="26">  0.  2017-04-03 11:38:36 +0000   349718 byte  .</tspan>
+<tspan x="10" y="42">  1.  2017-04-03 11:38:36 +0000      721 byte  COPYRIGHT</tspan>
+<tspan x="10" y="58">  2.  2017-04-03 11:38:36 +0000    11362 byte  LICENSE</tspan>
+<tspan x="10" y="74">  3.  2017-04-03 11:38:36 +0000      418 byte  NOTICE</tspan>
+<tspan x="10" y="90">  4.  2017-04-03 11:38:36 +0000     8359 byte  README.md</tspan>
+<tspan x="10" y="106">  5.  2017-04-03 11:38:36 +0000     1381 byte  bin/phonegap.js</tspan>
+<tspan x="10" y="122">  6.  2017-04-03 11:38:36 +0000      211 byte  doc/cli/help.analytics.txt</tspan>
+<tspan x="10" y="138">  7.  2017-04-03 11:38:36 +0000      743 byte  doc/cli/help.build.txt</tspan>
+<tspan x="10" y="154">  8.  2017-04-03 11:38:36 +0000      709 byte  doc/cli/help.compile.txt</tspan>
+<tspan x="10" y="170">  9.  2017-04-03 11:38:36 +0000      295 byte  doc/cli/help.cordova.txt</tspan>
+<tspan x="10" y="186"> 10.  2017-04-03 11:38:36 +0000     1711 byte  doc/cli/help.create.txt</tspan>
+<tspan x="10" y="202"> 11.  2017-04-03 11:38:36 +0000      706 byte  doc/cli/help.emulate.txt</tspan>
+<tspan x="10" y="218"> 12.  2017-04-03 11:38:36 +0000      221 byte  doc/cli/help.help.txt</tspan>
+<tspan x="10" y="234"> 13.  2017-04-03 11:38:36 +0000      216 byte  doc/cli/help.info.txt</tspan>
+<tspan x="10" y="250"> 14.  2017-04-03 11:38:36 +0000      702 byte  doc/cli/help.install.txt</tspan>
+<tspan x="10" y="266"> 15.  2017-04-03 11:38:36 +0000      577 byte  doc/cli/help.local.build.txt</tspan>
+<tspan x="10" y="282"> 16.  2017-04-03 11:38:36 +0000      687 byte  doc/cli/help.local.install.txt</tspan>
+<tspan x="10" y="298"> 17.  2017-04-03 11:38:36 +0000      510 byte  doc/cli/help.local.plugin.add.txt</tspan>
+<tspan x="10" y="314"> 18.  2017-04-03 11:38:36 +0000      357 byte  doc/cli/help.local.plugin.list.txt</tspan>
+<tspan x="10" y="330"> 19.  2017-04-03 11:38:36 +0000      520 byte  doc/cli/help.local.plugin.remove.txt</tspan>
+<tspan x="10" y="346"> 20.  2017-04-03 11:38:36 +0000      684 byte  doc/cli/help.local.plugin.txt</tspan>
+<tspan x="10" y="362"> 21.  2017-04-03 11:38:36 +0000      608 byte  doc/cli/help.local.run.txt</tspan>
+<tspan x="10" y="378"> 22.  2017-04-03 11:38:36 +0000      655 byte  doc/cli/help.local.txt</tspan>
+<tspan x="10" y="394"> 23.  2017-04-03 11:38:36 +0000      697 byte  doc/cli/help.platform.add.txt</tspan>
+<tspan x="10" y="410"> 24.  2017-04-03 11:38:36 +0000      187 byte  doc/cli/help.platform.check.txt</tspan>
+<tspan x="10" y="426"> 25.  2017-04-03 11:38:36 +0000      337 byte  doc/cli/help.platform.list.txt</tspan>
+<tspan x="10" y="442"> 26.  2017-04-03 11:38:36 +0000      507 byte  doc/cli/help.platform.remove.txt</tspan>
+<tspan x="10" y="458"> 27.  2017-04-03 11:38:36 +0000      954 byte  doc/cli/help.platform.txt</tspan>
+<tspan x="10" y="474"> 28.  2017-04-03 11:38:36 +0000      208 byte  doc/cli/help.platform.update.txt</tspan>
+<tspan x="10" y="490"> 29.  2017-04-03 11:38:36 +0000     1326 byte  doc/cli/help.plugin.add.txt</tspan>
+<tspan x="10" y="506"> 30.  2017-04-03 11:38:36 +0000      185 byte  doc/cli/help.plugin.list.txt</tspan>
+<tspan x="10" y="522"> 31.  2017-04-03 11:38:36 +0000      616 byte  doc/cli/help.plugin.remove.txt</tspan>
+<tspan x="10" y="538"> 32.  2017-04-03 11:38:36 +0000      209 byte  doc/cli/help.plugin.search.txt</tspan>
+<tspan x="10" y="554"> 33.  2017-04-03 11:38:36 +0000      614 byte  doc/cli/help.plugin.txt</tspan>
+<tspan x="10" y="570"> 34.  2017-04-03 11:38:36 +0000      844 byte  doc/cli/help.prepare.txt</tspan>
+<tspan x="10" y="586"> 35.  2017-04-03 11:38:36 +0000      913 byte  doc/cli/help.push.txt</tspan>
+<tspan x="10" y="602"> 36.  2017-04-03 11:38:36 +0000      446 byte  doc/cli/help.remote.build.txt</tspan>
+<tspan x="10" y="618"> 37.  2017-04-03 11:38:36 +0000      520 byte  doc/cli/help.remote.install.txt</tspan>
+<tspan x="10" y="634"> 38.  2017-04-03 11:38:36 +0000      621 byte  doc/cli/help.remote.login.txt</tspan>
+<tspan x="10" y="650"> 39.  2017-04-03 11:38:36 +0000      113 byte  doc/cli/help.remote.logout.txt</tspan>
+<tspan x="10" y="666"> 40.  2017-04-03 11:38:36 +0000      522 byte  doc/cli/help.remote.run.txt</tspan>
+<tspan x="10" y="682"> 41.  2017-04-03 11:38:36 +0000      474 byte  doc/cli/help.remote.txt</tspan>
+<tspan x="10" y="698"> 42.  2017-04-03 11:38:36 +0000      868 byte  doc/cli/help.run.txt</tspan>
+<tspan x="10" y="714"> 43.  2017-04-03 11:38:36 +0000      491 byte  doc/cli/help.save.txt</tspan>
+<tspan x="10" y="730"> 44.  2017-04-03 11:38:36 +0000     1813 byte  doc/cli/help.serve.txt</tspan>
+<tspan x="10" y="746"> 45.  2017-04-03 11:38:36 +0000      401 byte  doc/cli/help.template.list.txt</tspan>
+<tspan x="10" y="762"> 46.  2017-04-03 11:38:36 +0000      345 byte  doc/cli/help.template.search.txt</tspan>
+<tspan x="10" y="778"> 47.  2017-04-03 11:38:36 +0000      343 byte  doc/cli/help.template.txt</tspan>
+<tspan x="10" y="794"> 48.  2017-04-03 11:38:36 +0000     1710 byte  doc/cli/help.txt</tspan>
+<tspan x="10" y="810"> 49.  2017-04-03 11:38:36 +0000     2206 byte  lib/cli.js</tspan>
+<tspan x="10" y="826"> 50.  2017-04-03 11:38:36 +0000     5527 byte  lib/cli/analytics.js</tspan>
+<tspan x="10" y="842"> 51.  2017-04-03 11:38:36 +0000     3343 byte  lib/cli/argv.js</tspan>
+<tspan x="10" y="858"> 52.  2017-04-03 11:38:36 +0000     1312 byte  lib/cli/cordova.js</tspan>
+<tspan x="10" y="874"> 53.  2017-04-03 11:38:36 +0000     1210 byte  lib/cli/create.js</tspan>
+<tspan x="10" y="890"> 54.  2017-04-03 11:38:36 +0000     1321 byte  lib/cli/help.js</tspan>
+<tspan x="10" y="906"> 55.  2017-04-03 11:38:36 +0000     1062 byte  lib/cli/install.js</tspan>
+<tspan x="10" y="922"> 56.  2017-04-03 11:38:36 +0000     1098 byte  lib/cli/local.js</tspan>
+<tspan x="10" y="938"> 57.  2017-04-03 11:38:36 +0000      539 byte  lib/cli/push.js</tspan>
+<tspan x="10" y="954"> 58.  2017-04-03 11:38:36 +0000     1165 byte  lib/cli/remote.build.js</tspan>
+<tspan x="10" y="970"> 59.  2017-04-03 11:38:36 +0000      936 byte  lib/cli/remote.install.js</tspan>
+<tspan x="10" y="986"> 60.  2017-04-03 11:38:36 +0000      582 byte  lib/cli/remote.js</tspan>
+<tspan x="10" y="1002"> 61.  2017-04-03 11:38:36 +0000     2111 byte  lib/cli/remote.login.js</tspan>
+<tspan x="10" y="1018"> 62.  2017-04-03 11:38:36 +0000      473 byte  lib/cli/remote.logout.js</tspan>
+<tspan x="10" y="1034"> 63.  2017-04-03 11:38:36 +0000      938 byte  lib/cli/remote.run.js</tspan>
+<tspan x="10" y="1050"> 64.  2017-04-03 11:38:36 +0000     1213 byte  lib/cli/serve.js</tspan>
+<tspan x="10" y="1066"> 65.  2017-04-03 11:38:36 +0000      489 byte  lib/cli/share.js</tspan>
+<tspan x="10" y="1082"> 66.  2017-04-03 11:38:36 +0000      619 byte  lib/cli/template.js</tspan>
+<tspan x="10" y="1098"> 67.  2017-04-03 11:38:36 +0000     1061 byte  lib/cli/template.list.js</tspan>
+<tspan x="10" y="1114"> 68.  2017-04-03 11:38:36 +0000      415 byte  lib/cli/template.search.js</tspan>
+<tspan x="10" y="1130"> 69.  2017-04-03 11:38:36 +0000      522 byte  lib/cli/unknown.js</tspan>
+<tspan x="10" y="1146"> 70.  2017-04-03 11:38:36 +0000     2461 byte  lib/cli/util/console.js</tspan>
+<tspan x="10" y="1162"> 71.  2017-04-03 11:38:36 +0000     5849 byte  lib/cli/util/sanitize-args.js</tspan>
+<tspan x="10" y="1178"> 72.  2017-04-03 11:38:36 +0000      319 byte  lib/cli/util/update-check.js</tspan>
+<tspan x="10" y="1194"> 73.  2017-04-03 11:38:36 +0000      365 byte  lib/cli/version.js</tspan>
+<tspan x="10" y="1210"> 74.  2017-04-03 11:38:36 +0000      215 byte  lib/common/config.js</tspan>
+<tspan x="10" y="1226"> 75.  2017-04-03 11:38:36 +0000     2672 byte  lib/common/config/global.js</tspan>
+<tspan x="10" y="1242"> 76.  2017-04-03 11:38:36 +0000     1686 byte  lib/common/config/local.js</tspan>
+<tspan x="10" y="1258"> 77.  2017-04-03 11:38:36 +0000     1140 byte  lib/cordova/index.js</tspan>
+<tspan x="10" y="1274"> 78.  2017-04-03 11:38:36 +0000      141 byte  lib/main.js</tspan>
+<tspan x="10" y="1290"> 79.  2017-04-03 11:38:36 +0000     2634 byte  lib/phonegap.js</tspan>
+<tspan x="10" y="1306"> 80.  2017-04-03 11:38:36 +0000    12204 byte  lib/phonegap/cordova.js</tspan>
+<tspan x="10" y="1322"> 81.  2017-04-03 11:38:36 +0000     6321 byte  lib/phonegap/create.js</tspan>
+<tspan x="10" y="1338"> 82.  2017-04-03 11:38:36 +0000     3964 byte  lib/phonegap/mode.js</tspan>
+<tspan x="10" y="1354"> 83.  2017-04-03 11:38:36 +0000     2253 byte  lib/phonegap/push.js</tspan>
+<tspan x="10" y="1370"> 84.  2017-04-03 11:38:36 +0000     2355 byte  lib/phonegap/remote.build.js</tspan>
+<tspan x="10" y="1386"> 85.  2017-04-03 11:38:36 +0000     2975 byte  lib/phonegap/remote.install.js</tspan>
+<tspan x="10" y="1402"> 86.  2017-04-03 11:38:36 +0000     2116 byte  lib/phonegap/remote.login.js</tspan>
+<tspan x="10" y="1418"> 87.  2017-04-03 11:38:36 +0000     1079 byte  lib/phonegap/remote.logout.js</tspan>
+<tspan x="10" y="1434"> 88.  2017-04-03 11:38:36 +0000     2974 byte  lib/phonegap/remote.run.js</tspan>
+<tspan x="10" y="1450"> 89.  2017-04-03 11:38:36 +0000     4431 byte  lib/phonegap/serve.js</tspan>
+<tspan x="10" y="1466"> 90.  2017-04-03 11:38:36 +0000     1662 byte  lib/phonegap/share.js</tspan>
+<tspan x="10" y="1482"> 91.  2017-04-03 11:38:36 +0000     1454 byte  lib/phonegap/template.list.js</tspan>
+<tspan x="10" y="1498"> 92.  2017-04-03 11:38:36 +0000     1688 byte  lib/phonegap/template.search.js</tspan>
+<tspan x="10" y="1514"> 93.  2017-04-03 11:38:36 +0000      892 byte  lib/phonegap/util/command.js</tspan>
+<tspan x="10" y="1530"> 94.  2017-04-03 11:38:36 +0000     7198 byte  lib/phonegap/util/connect-proxy.js</tspan>
+<tspan x="10" y="1546"> 95.  2017-04-03 11:38:36 +0000     7127 byte  lib/phonegap/util/dropbox.js</tspan>
+<tspan x="10" y="1562"> 96.  2017-04-03 11:38:36 +0000      272 byte  lib/phonegap/util/hex.js</tspan>
+<tspan x="10" y="1578"> 97.  2017-04-03 11:38:36 +0000      790 byte  lib/phonegap/util/network.js</tspan>
+<tspan x="10" y="1594"> 98.  2017-04-03 11:38:36 +0000      162 byte  lib/phonegap/util/opener.js</tspan>
+<tspan x="10" y="1610"> 99.  2017-04-03 11:38:36 +0000      164 byte  lib/phonegap/util/phonegap-build.js</tspan>
+<tspan x="10" y="1626">100.  2017-04-03 11:38:36 +0000     2281 byte  lib/phonegap/util/platform.js</tspan>
+<tspan x="10" y="1642">101.  2017-04-03 11:38:36 +0000     3332 byte  lib/phonegap/util/project.js</tspan>
+<tspan x="10" y="1658">102.  2017-04-03 11:38:36 +0000      636 byte  lib/phonegap/util/public/index.html</tspan>
+<tspan x="10" y="1674">103.  2017-04-03 11:38:36 +0000     1099 byte  lib/phonegap/version.js</tspan>
+<tspan x="10" y="1690">104.  2017-04-03 11:38:36 +0000     4699 byte  package.json</tspan>
+<tspan x="10" y="1706">105.  2017-04-03 11:38:36 +0000     1290 byte  spec/cli.spec.js</tspan>
+<tspan x="10" y="1722">106.  2017-04-03 11:38:36 +0000     2319 byte  spec/cli/app.spec.js</tspan>
+<tspan x="10" y="1738">107.  2017-04-03 11:38:36 +0000     2478 byte  spec/cli/cordova.spec.js</tspan>
+<tspan x="10" y="1754">108.  2017-04-03 11:38:36 +0000    11937 byte  spec/cli/create.spec.js</tspan>
+<tspan x="10" y="1770">109.  2017-04-03 11:38:36 +0000     2419 byte  spec/cli/help.spec.js</tspan>
+<tspan x="10" y="1786">110.  2017-04-03 11:38:36 +0000     2916 byte  spec/cli/install.spec.js</tspan>
+<tspan x="10" y="1802">111.  2017-04-03 11:38:36 +0000     3117 byte  spec/cli/local.spec.js</tspan>
+<tspan x="10" y="1818">112.  2017-04-03 11:38:36 +0000     1662 byte  spec/cli/push.spec.js</tspan>
+<tspan x="10" y="1834">113.  2017-04-03 11:38:36 +0000     4304 byte  spec/cli/remote.build.spec.js</tspan>
+<tspan x="10" y="1850">114.  2017-04-03 11:38:36 +0000     4350 byte  spec/cli/remote.install.spec.js</tspan>
+<tspan x="10" y="1866">115.  2017-04-03 11:38:36 +0000    10908 byte  spec/cli/remote.login.spec.js</tspan>
+<tspan x="10" y="1882">116.  2017-04-03 11:38:36 +0000     3461 byte  spec/cli/remote.logout.spec.js</tspan>
+<tspan x="10" y="1898">117.  2017-04-03 11:38:36 +0000     4222 byte  spec/cli/remote.run.spec.js</tspan>
+<tspan x="10" y="1914">118.  2017-04-03 11:38:36 +0000     2554 byte  spec/cli/remote.spec.js</tspan>
+<tspan x="10" y="1930">119.  2017-04-03 11:38:36 +0000     2882 byte  spec/cli/serve.spec.js</tspan>
+<tspan x="10" y="1946">120.  2017-04-03 11:38:36 +0000     1663 byte  spec/cli/share.spec.js</tspan>
+<tspan x="10" y="1962">121.  2017-04-03 11:38:36 +0000     2777 byte  spec/cli/template.list.spec.js</tspan>
+<tspan x="10" y="1978">122.  2017-04-03 11:38:36 +0000     2419 byte  spec/cli/template.search.spec.js</tspan>
+<tspan x="10" y="1994">123.  2017-04-03 11:38:36 +0000     2668 byte  spec/cli/template.spec.js</tspan>
+<tspan x="10" y="2010">124.  2017-04-03 11:38:36 +0000      647 byte  spec/cli/unknown.spec.js</tspan>
+<tspan x="10" y="2026">125.  2017-04-03 11:38:36 +0000    17187 byte  spec/cli/util/sanitize-args.spec.js</tspan>
+<tspan x="10" y="2042">126.  2017-04-03 11:38:36 +0000      489 byte  spec/cli/util/update-check.spec.js</tspan>
+<tspan x="10" y="2058">127.  2017-04-03 11:38:36 +0000     1153 byte  spec/cli/verbose.spec.js</tspan>
+<tspan x="10" y="2074">128.  2017-04-03 11:38:36 +0000     1667 byte  spec/cli/version.spec.js</tspan>
+<tspan x="10" y="2090">129.  2017-04-03 11:38:36 +0000     8792 byte  spec/common/config/global.spec.js</tspan>
+<tspan x="10" y="2106">130.  2017-04-03 11:38:36 +0000     4343 byte  spec/common/config/local.spec.js</tspan>
+<tspan x="10" y="2122">131.  2017-04-03 11:38:36 +0000      923 byte  spec/cordova/index.spec.js</tspan>
+<tspan x="10" y="2138">132.  2017-04-03 11:38:36 +0000      439 byte  spec/fixture/app-with-config/www/config.xml</tspan>
+<tspan x="10" y="2154">133.  2017-04-03 11:38:36 +0000      309 byte  spec/main.spec.js</tspan>
+<tspan x="10" y="2170">134.  2017-04-03 11:38:36 +0000     1096 byte  spec/phonegap.spec.js</tspan>
+<tspan x="10" y="2186">135.  2017-04-03 11:38:36 +0000      401 byte  spec/phonegap/app.spec.js</tspan>
+<tspan x="10" y="2202">136.  2017-04-03 11:38:36 +0000    16383 byte  spec/phonegap/cordova.spec.js</tspan>
+<tspan x="10" y="2218">137.  2017-04-03 11:38:36 +0000     9201 byte  spec/phonegap/create.spec.js</tspan>
+<tspan x="10" y="2234">138.  2017-04-03 11:38:36 +0000     2981 byte  spec/phonegap/mode.spec.js</tspan>
+<tspan x="10" y="2250">139.  2017-04-03 11:38:36 +0000      993 byte  spec/phonegap/push.spec.js</tspan>
+<tspan x="10" y="2266">140.  2017-04-03 11:38:36 +0000     5223 byte  spec/phonegap/remote.build.spec.js</tspan>
+<tspan x="10" y="2282">141.  2017-04-03 11:38:36 +0000     4069 byte  spec/phonegap/remote.install.spec.js</tspan>
+<tspan x="10" y="2298">142.  2017-04-03 11:38:36 +0000     5095 byte  spec/phonegap/remote.login.spec.js</tspan>
+<tspan x="10" y="2314">143.  2017-04-03 11:38:36 +0000     2492 byte  spec/phonegap/remote.logout.spec.js</tspan>
+<tspan x="10" y="2330">144.  2017-04-03 11:38:36 +0000     5483 byte  spec/phonegap/remote.run.spec.js</tspan>
+<tspan x="10" y="2346">145.  2017-04-03 11:38:36 +0000     6211 byte  spec/phonegap/serve.spec.js</tspan>
+<tspan x="10" y="2362">146.  2017-04-03 11:38:36 +0000      994 byte  spec/phonegap/share.spec.js</tspan>
+<tspan x="10" y="2378">147.  2017-04-03 11:38:36 +0000     1629 byte  spec/phonegap/template.list.spec.js</tspan>
+<tspan x="10" y="2394">148.  2017-04-03 11:38:36 +0000     1225 byte  spec/phonegap/template.search.spec.js</tspan>
+<tspan x="10" y="2410">149.  2017-04-03 11:38:36 +0000     1365 byte  spec/phonegap/util/network.spec.js</tspan>
+<tspan x="10" y="2426">150.  2017-04-03 11:38:36 +0000     3579 byte  spec/phonegap/util/platform.spec.js</tspan>
+<tspan x="10" y="2442">151.  2017-04-03 11:38:36 +0000     5638 byte  spec/phonegap/util/project.spec.js</tspan>
+<tspan x="10" y="2458">152.  2017-04-03 11:38:36 +0000      996 byte  spec/phonegap/version.spec.js</tspan>
 </text>
 </svg>

@@ -1,0 +1,488 @@
+<div class="apidocDiv">
+<style>
+/*csslint
+*/
+.apidocDiv {
+    background: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.apidocDiv a[href] {
+    color: #33f;
+    font-weight: bold;
+    text-decoration: none;
+}
+.apidocDiv a[href]:hover {
+    text-decoration: underline;
+}
+.apidocCodeCommentSpan {
+    background: #bbf;
+    color: #000;
+    display: block;
+}
+.apidocCodeKeywordSpan {
+    color: #d00;
+    font-weight: bold;
+}
+.apidocCodePre {
+    background: #eef;
+    border: 1px solid;
+    color: #777;
+    padding: 5px;
+    white-space: pre-wrap;
+}
+.apidocFooterDiv {
+    margin-top: 20px;
+    text-align: center;
+}
+.apidocModuleLi {
+    margin-top: 10px;
+}
+.apidocSectionDiv {
+    border-top: 1px solid;
+    margin-top: 20px;
+}
+.apidocSignatureSpan {
+    color: #777;
+    font-weight: bold;
+}
+</style>
+<h1>api documentation for
+    <a
+
+        href="http://github.com/phonegap/phonegap-cli"
+
+    >phonegap (v6.4.6)</a>
+</h1>
+<h4>PhoneGap command-line interface and node.js library.</h4>
+<div class="apidocSectionDiv"><a
+    href="#apidoc.tableOfContents"
+    id="apidoc.tableOfContents"
+><h1>table of contents</h1></a><ol>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.phonegap">module phonegap</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.phonegap.phonegap">
+            function <span class="apidocSignatureSpan"></span>phonegap
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.phonegap.app">
+            function <span class="apidocSignatureSpan">phonegap.</span>app
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.phonegap.cordova">
+            function <span class="apidocSignatureSpan">phonegap.</span>cordova
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.phonegap.create">
+            function <span class="apidocSignatureSpan">phonegap.</span>create
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.phonegap.mode">
+            function <span class="apidocSignatureSpan">phonegap.</span>mode
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.phonegap.push">
+            function <span class="apidocSignatureSpan">phonegap.</span>push
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.phonegap.serve">
+            function <span class="apidocSignatureSpan">phonegap.</span>serve
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.phonegap.share">
+            function <span class="apidocSignatureSpan">phonegap.</span>share
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.phonegap.version">
+            function <span class="apidocSignatureSpan">phonegap.</span>version
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">number <span class="apidocSignatureSpan">phonegap.</span>_eventsCount</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">phonegap.</span>_events</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">phonegap.</span>util</span>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.phonegap._events">module phonegap._events</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.phonegap._events.error">
+            function <span class="apidocSignatureSpan">phonegap._events.</span>error
+            <span class="apidocSignatureSpan">(e)</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.phonegap.phonegap">module phonegap.phonegap</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.phonegap.phonegap.phonegap">
+            function <span class="apidocSignatureSpan">phonegap.</span>phonegap
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.phonegap.phonegap.super_">
+            function <span class="apidocSignatureSpan">phonegap.phonegap.</span>super_
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
+</ol></div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.phonegap" id="apidoc.module.phonegap">module phonegap</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.phonegap.phonegap" id="apidoc.element.phonegap.phonegap">
+        function <span class="apidocSignatureSpan"></span>phonegap
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function PhoneGap() {
+    // initialize PhoneGap
+    initialize.call(this);
+
+    // initialize each command and inject the `phonegap` dependency.
+    this.cordova = require(&#x27;./phonegap/cordova&#x27;).create(this);
+    this.create = require(&#x27;./phonegap/create&#x27;).create(this);
+    this.mode = require(&#x27;./phonegap/mode&#x27;).create(this);
+    this.template.list = require(&#x27;./phonegap/template.list&#x27;).create(this);
+    this.template.search = require(&#x27;./phonegap/template.search&#x27;).create(this);
+    this.remote.build = require(&#x27;./phonegap/remote.build&#x27;).create(this);
+    this.remote.install = require(&#x27;./phonegap/remote.install&#x27;).create(this);
+    this.remote.login = require(&#x27;./phonegap/remote.login&#x27;).create(this);
+    this.remote.logout = require(&#x27;./phonegap/remote.logout&#x27;).create(this);
+    this.remote.run = require(&#x27;./phonegap/remote.run&#x27;).create(this);
+    this.serve = require(&#x27;./phonegap/serve&#x27;).create(this);
+    this.app = this.serve;
+    this.version = require(&#x27;./phonegap/version&#x27;).create(this);
+    this.push = require(&#x27;./phonegap/push&#x27;).create(this);
+    this.share = require(&#x27;./phonegap/share&#x27;).create(this);
+
+    // set normal mode (not verbose and not quiet)
+    this.mode({ verbose: false });
+
+    // utility methods
+    this.util = {};
+    this.util.cordova = require(&#x27;./cordova&#x27;).cordova;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.phonegap.app" id="apidoc.element.phonegap.app">
+        function <span class="apidocSignatureSpan">phonegap.</span>app
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">app = function () {
+    return self.run.apply(self, arguments);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.phonegap.cordova" id="apidoc.element.phonegap.cordova">
+        function <span class="apidocSignatureSpan">phonegap.</span>cordova
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">cordova = function () {
+    return self.run.apply(self, arguments);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.phonegap.create" id="apidoc.element.phonegap.create">
+        function <span class="apidocSignatureSpan">phonegap.</span>create
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">create = function () {
+    return self.run.apply(self, arguments);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+ */
+
+function PhoneGap() {
+// initialize PhoneGap
+initialize.call(this);
+
+// initialize each command and inject the `phonegap` dependency.
+this.cordova = require(&#x27;./phonegap/cordova&#x27;).<span class="apidocCodeKeywordSpan">create</span>(this);
+this.create = require(&#x27;./phonegap/create&#x27;).create(this);
+this.mode = require(&#x27;./phonegap/mode&#x27;).create(this);
+this.template.list = require(&#x27;./phonegap/template.list&#x27;).create(this);
+this.template.search = require(&#x27;./phonegap/template.search&#x27;).create(this);
+this.remote.build = require(&#x27;./phonegap/remote.build&#x27;).create(this);
+this.remote.install = require(&#x27;./phonegap/remote.install&#x27;).create(this);
+this.remote.login = require(&#x27;./phonegap/remote.login&#x27;).create(this);
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.phonegap.mode" id="apidoc.element.phonegap.mode">
+        function <span class="apidocSignatureSpan">phonegap.</span>mode
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">mode = function () {
+    return self.run.apply(self, arguments);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+    this.serve = require(&#x27;./phonegap/serve&#x27;).create(this);
+    this.app = this.serve;
+    this.version = require(&#x27;./phonegap/version&#x27;).create(this);
+    this.push = require(&#x27;./phonegap/push&#x27;).create(this);
+    this.share = require(&#x27;./phonegap/share&#x27;).create(this);
+
+    // set normal mode (not verbose and not quiet)
+    this.<span class="apidocCodeKeywordSpan">mode</span>({ verbose: false });
+
+    // utility methods
+    this.util = {};
+    this.util.cordova = require(&#x27;./cordova&#x27;).cordova;
+}
+
+util.inherits(PhoneGap, events.EventEmitter);
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.phonegap.push" id="apidoc.element.phonegap.push">
+        function <span class="apidocSignatureSpan">phonegap.</span>push
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">push = function () {
+    return self.run.apply(self, arguments);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.phonegap.serve" id="apidoc.element.phonegap.serve">
+        function <span class="apidocSignatureSpan">phonegap.</span>serve
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">serve = function () {
+    return self.run.apply(self, arguments);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.phonegap.share" id="apidoc.element.phonegap.share">
+        function <span class="apidocSignatureSpan">phonegap.</span>share
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">share = function () {
+    return self.run.apply(self, arguments);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.phonegap.version" id="apidoc.element.phonegap.version">
+        function <span class="apidocSignatureSpan">phonegap.</span>version
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">version = function () {
+    return self.run.apply(self, arguments);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+
+
+
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.phonegap._events" id="apidoc.module.phonegap._events">module phonegap._events</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.phonegap._events.error" id="apidoc.element.phonegap._events.error">
+        function <span class="apidocSignatureSpan">phonegap._events.</span>error
+        <span class="apidocSignatureSpan">(e)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">error = function (e) {}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.phonegap.phonegap" id="apidoc.module.phonegap.phonegap">module phonegap.phonegap</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.phonegap.phonegap.phonegap" id="apidoc.element.phonegap.phonegap.phonegap">
+        function <span class="apidocSignatureSpan">phonegap.</span>phonegap
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function PhoneGap() {
+    // initialize PhoneGap
+    initialize.call(this);
+
+    // initialize each command and inject the `phonegap` dependency.
+    this.cordova = require(&#x27;./phonegap/cordova&#x27;).create(this);
+    this.create = require(&#x27;./phonegap/create&#x27;).create(this);
+    this.mode = require(&#x27;./phonegap/mode&#x27;).create(this);
+    this.template.list = require(&#x27;./phonegap/template.list&#x27;).create(this);
+    this.template.search = require(&#x27;./phonegap/template.search&#x27;).create(this);
+    this.remote.build = require(&#x27;./phonegap/remote.build&#x27;).create(this);
+    this.remote.install = require(&#x27;./phonegap/remote.install&#x27;).create(this);
+    this.remote.login = require(&#x27;./phonegap/remote.login&#x27;).create(this);
+    this.remote.logout = require(&#x27;./phonegap/remote.logout&#x27;).create(this);
+    this.remote.run = require(&#x27;./phonegap/remote.run&#x27;).create(this);
+    this.serve = require(&#x27;./phonegap/serve&#x27;).create(this);
+    this.app = this.serve;
+    this.version = require(&#x27;./phonegap/version&#x27;).create(this);
+    this.push = require(&#x27;./phonegap/push&#x27;).create(this);
+    this.share = require(&#x27;./phonegap/share&#x27;).create(this);
+
+    // set normal mode (not verbose and not quiet)
+    this.mode({ verbose: false });
+
+    // utility methods
+    this.util = {};
+    this.util.cordova = require(&#x27;./cordova&#x27;).cordova;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.phonegap.phonegap.super_" id="apidoc.element.phonegap.phonegap.super_">
+        function <span class="apidocSignatureSpan">phonegap.phonegap.</span>super_
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function EventEmitter() {
+  EventEmitter.init.call(this);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocFooterDiv">
+    [ this document was created with
+    <a href="https://github.com/kaizhu256/node-utility2" target="_blank">utility2</a>
+    ]
+</div>
+</div>

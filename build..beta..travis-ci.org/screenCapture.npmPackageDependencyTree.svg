@@ -1,0 +1,27 @@
+<svg height="382" width="720" xmlns="http://www.w3.org/2000/svg">
+<rect height="382" fill="#555" width="720"></rect>
+<text fill="#7f7" font-family="Courier New" font-size="12" xml:space="preserve">
+<tspan x="10" y="26">├── opener@1.4.1</tspan>
+<tspan x="10" y="42">├── pluralize@0.0.4</tspan>
+<tspan x="10" y="58">├── colors@0.6.0-1</tspan>
+<tspan x="10" y="74">├── semver@1.1.0</tspan>
+<tspan x="10" y="90">├── minimist@0.1.0</tspan>
+<tspan x="10" y="106">├── qrcode-terminal@0.9.4</tspan>
+<tspan x="10" y="122">├── opn@4.0.2 (object-assign@4.1.1, pinkie-promise@2.0.1)</tspan>
+<tspan x="10" y="138">├── shelljs@0.1.4</tspan>
+<tspan x="10" y="154">├── update-notifier@0.6.3 (is-npm@1.0.0, semver-diff@2.1.0, chalk@1.1.3, boxen@0.3.1, configstor\</tspan>
+<tspan x="10" y="170">e@2.1.0, latest-version@2.0.0)</tspan>
+<tspan x="10" y="186">├── prompt@0.2.11 (revalidator@0.1.8, pkginfo@0.4.0, read@1.0.7, utile@0.2.1, winston@0.6.2)</tspan>
+<tspan x="10" y="202">├── phonegap-build@0.10.0 (colors@0.6.2, qrcode-terminal@0.8.0, optimist@0.3.7, shelljs@0.0.9, p\</tspan>
+<tspan x="10" y="218">honegap-build-api@0.4.0)</tspan>
+<tspan x="10" y="234">├── insight@0.8.2 (object-assign@4.1.1, async@1.5.2, lodash.debounce@3.1.1, node-uuid@1.4.8, tou\</tspan>
+<tspan x="10" y="250">gh-cookie@2.3.2, chalk@1.1.3, os-name@1.0.3, configstore@1.4.0, request@2.81.0, inquirer@0.10.1)</tspan>
+<tspan x="10" y="266">├── archiver@1.3.0 (buffer-crc32@0.2.13, archiver-utils@1.3.0, walkdir@0.0.11, readable-stream@2\</tspan>
+<tspan x="10" y="282">.2.6, tar-stream@1.5.2, glob@7.1.1, zip-stream@1.1.1, async@2.3.0, lodash@4.17.4)</tspan>
+<tspan x="10" y="298">├── connect-phonegap@0.24.5 (connect-inject@0.4.0, ip@1.1.3, adm-zip@0.4.7, http-proxy@1.15.1, w\</tspan>
+<tspan x="10" y="314">alkdir@0.0.11, useragent@2.1.9, socket.io@1.5.0, request@2.76.0, shelljs@0.7.5, connect@2.30.2, \</tspan>
+<tspan x="10" y="330">archiver@1.1.0, gaze@1.1.2, localtunnel@1.8.1)</tspan>
+<tspan x="10" y="346">└── cordova@6.4.0 (underscore@1.7.0, q@1.0.1, nopt@3.0.1, update-notifier@0.5.0, cordova-common@\</tspan>
+<tspan x="10" y="362">1.5.1, cordova-lib@6.4.0)</tspan>
+</text>
+</svg>

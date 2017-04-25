@@ -1,6 +1,6 @@
 {
     "author": "kai zhu <kaizhu256@gmail.com>",
-    "description": "api documentation for [phonegap (v6.4.8)](http://github.com/phonegap/phonegap-cli) [![npm package](https://img.shields.io/npm/v/npmdoc-phonegap.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-phonegap) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-phonegap.svg)](https://travis-ci.org/npmdoc/node-npmdoc-phonegap)",
+    "description": "#### basic api documentation for  [phonegap (v6.5.0)](http://github.com/phonegap/phonegap-cli)  [![npm package](https://img.shields.io/npm/v/npmdoc-phonegap.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-phonegap) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-phonegap.svg)](https://travis-ci.org/npmdoc/node-npmdoc-phonegap)",
     "devDependencies": {
         "electron-lite": "kaizhu256/node-electron-lite#alpha",
         "phonegap": "*",

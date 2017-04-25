@@ -1,7 +1,12 @@
-# api documentation for  [phonegap (v6.4.8)](http://github.com/phonegap/phonegap-cli)  [![npm package](https://img.shields.io/npm/v/npmdoc-phonegap.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-phonegap) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-phonegap.svg)](https://travis-ci.org/npmdoc/node-npmdoc-phonegap)
+# npmdoc-phonegap
+
+#### basic api documentation for  [phonegap (v6.5.0)](http://github.com/phonegap/phonegap-cli)  [![npm package](https://img.shields.io/npm/v/npmdoc-phonegap.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-phonegap) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-phonegap.svg)](https://travis-ci.org/npmdoc/node-npmdoc-phonegap)
+
 #### PhoneGap command-line interface and node.js library.
 
 [![NPM](https://nodei.co/npm/phonegap.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/phonegap)
+
+- [https://npmdoc.github.io/node-npmdoc-phonegap/build/apidoc.html](https://npmdoc.github.io/node-npmdoc-phonegap/build/apidoc.html)
 
 [![apidoc](https://npmdoc.github.io/node-npmdoc-phonegap/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-phonegap/build/apidoc.html)
 
@@ -18,7 +23,7 @@
 {
     "name": "phonegap",
     "description": "PhoneGap command-line interface and node.js library.",
-    "version": "6.4.8",
+    "version": "6.5.0",
     "license": "Apache-2.0",
     "homepage": "http://github.com/phonegap/phonegap-cli",
     "repository": {
@@ -49,7 +54,7 @@
         "archiver": "^1.0.0",
         "colors": "0.6.0-1",
         "connect-phonegap": "0.24.5",
-        "cordova": "6.4.0",
+        "cordova": "6.5.0",
         "insight": "0.8.2",
         "configstore": "1.4.0",
         "os-name": "2.0.1",
@@ -136,13 +141,13 @@
             "npm": "phonegap-app-augmented-reality"
         }
     },
-    "gitHead": "8786fb473ad88ae8d98c30036537b8e230ae84cd",
+    "gitHead": "26e04aca43a9b2ebccc80d4591afd4d7509dd810",
     "bugs": {
         "url": "https://github.com/phonegap/phonegap-cli/issues"
     },
     "dist": {
-        "shasum": "46cb4bfe315b326695d096c0c779cafc63edb03b",
-        "tarball": "https://registry.npmjs.org/phonegap/-/phonegap-6.4.8.tgz"
+        "shasum": "8a101db223f7c13f80bd0d30873674b39f2f7a0c",
+        "tarball": "https://registry.npmjs.org/phonegap/-/phonegap-6.5.0.tgz"
     },
     "maintainers": [
         {
@@ -172,140 +177,6 @@
     ],
     "directories": {}
 }
-```
-
-
-
-# <a name="apidoc.tableOfContents"></a>[table of contents](#apidoc.tableOfContents)
-
-#### [module phonegap](#apidoc.module.phonegap)
-1.  [function <span class="apidocSignatureSpan">phonegap.</span>app ()](#apidoc.element.phonegap.app)
-1.  [function <span class="apidocSignatureSpan">phonegap.</span>cordova ()](#apidoc.element.phonegap.cordova)
-1.  [function <span class="apidocSignatureSpan">phonegap.</span>create ()](#apidoc.element.phonegap.create)
-1.  [function <span class="apidocSignatureSpan">phonegap.</span>mode ()](#apidoc.element.phonegap.mode)
-1.  [function <span class="apidocSignatureSpan">phonegap.</span>push ()](#apidoc.element.phonegap.push)
-1.  [function <span class="apidocSignatureSpan">phonegap.</span>serve ()](#apidoc.element.phonegap.serve)
-1.  [function <span class="apidocSignatureSpan">phonegap.</span>share ()](#apidoc.element.phonegap.share)
-1.  [function <span class="apidocSignatureSpan">phonegap.</span>version ()](#apidoc.element.phonegap.version)
-1.  number <span class="apidocSignatureSpan">phonegap.</span>_eventsCount
-1.  object <span class="apidocSignatureSpan">phonegap.</span>_events
-1.  object <span class="apidocSignatureSpan">phonegap.</span>util
-
-#### [module phonegap._events](#apidoc.module.phonegap._events)
-1.  [function <span class="apidocSignatureSpan">phonegap._events.</span>error (e)](#apidoc.element.phonegap._events.error)
-
-
-
-# <a name="apidoc.module.phonegap"></a>[module phonegap](#apidoc.module.phonegap)
-
-#### <a name="apidoc.element.phonegap.app"></a>[function <span class="apidocSignatureSpan">phonegap.</span>app ()](#apidoc.element.phonegap.app)
-- description and source-code
-```javascript
-app = function () {
-    return self.run.apply(self, arguments);
-}
-```
-- example usage
-```shell
-n/a
-```
-
-#### <a name="apidoc.element.phonegap.cordova"></a>[function <span class="apidocSignatureSpan">phonegap.</span>cordova ()](#apidoc.element.phonegap.cordova)
-- description and source-code
-```javascript
-cordova = function () {
-    return self.run.apply(self, arguments);
-}
-```
-- example usage
-```shell
-n/a
-```
-
-#### <a name="apidoc.element.phonegap.create"></a>[function <span class="apidocSignatureSpan">phonegap.</span>create ()](#apidoc.element.phonegap.create)
-- description and source-code
-```javascript
-create = function () {
-    return self.run.apply(self, arguments);
-}
-```
-- example usage
-```shell
-n/a
-```
-
-#### <a name="apidoc.element.phonegap.mode"></a>[function <span class="apidocSignatureSpan">phonegap.</span>mode ()](#apidoc.element.phonegap.mode)
-- description and source-code
-```javascript
-mode = function () {
-    return self.run.apply(self, arguments);
-}
-```
-- example usage
-```shell
-n/a
-```
-
-#### <a name="apidoc.element.phonegap.push"></a>[function <span class="apidocSignatureSpan">phonegap.</span>push ()](#apidoc.element.phonegap.push)
-- description and source-code
-```javascript
-push = function () {
-    return self.run.apply(self, arguments);
-}
-```
-- example usage
-```shell
-n/a
-```
-
-#### <a name="apidoc.element.phonegap.serve"></a>[function <span class="apidocSignatureSpan">phonegap.</span>serve ()](#apidoc.element.phonegap.serve)
-- description and source-code
-```javascript
-serve = function () {
-    return self.run.apply(self, arguments);
-}
-```
-- example usage
-```shell
-n/a
-```
-
-#### <a name="apidoc.element.phonegap.share"></a>[function <span class="apidocSignatureSpan">phonegap.</span>share ()](#apidoc.element.phonegap.share)
-- description and source-code
-```javascript
-share = function () {
-    return self.run.apply(self, arguments);
-}
-```
-- example usage
-```shell
-n/a
-```
-
-#### <a name="apidoc.element.phonegap.version"></a>[function <span class="apidocSignatureSpan">phonegap.</span>version ()](#apidoc.element.phonegap.version)
-- description and source-code
-```javascript
-version = function () {
-    return self.run.apply(self, arguments);
-}
-```
-- example usage
-```shell
-n/a
-```
-
-
-
-# <a name="apidoc.module.phonegap._events"></a>[module phonegap._events](#apidoc.module.phonegap._events)
-
-#### <a name="apidoc.element.phonegap._events.error"></a>[function <span class="apidocSignatureSpan">phonegap._events.</span>error (e)](#apidoc.element.phonegap._events.error)
-- description and source-code
-```javascript
-error = function (e) {}
-```
-- example usage
-```shell
-n/a
 ```
 
 

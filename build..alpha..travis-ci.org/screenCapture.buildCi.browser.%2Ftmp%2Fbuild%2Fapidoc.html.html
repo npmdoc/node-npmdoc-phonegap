@@ -47,7 +47,7 @@
 }
 </style>
 <h1>api documentation for
-    <a href="http://github.com/phonegap/phonegap-cli">phonegap (v6.4.8)</a>
+    <a href="http://github.com/phonegap/phonegap-cli">phonegap (v6.5.0)</a>
 </h1>
 <h4>PhoneGap command-line interface and node.js library.</h4>
 <div class="apidocSectionDiv"><a href="#apidoc.tableOfContents" id="apidoc.tableOfContents"><h1>table of contents</h1></a><ol>
@@ -56,9 +56,36 @@
 
         <li>
 
+            <a class="apidocElementLiA" href="#apidoc.element.phonegap.analytics">
+            function <span class="apidocSignatureSpan">phonegap.</span>analytics
+            <span class="apidocSignatureSpan">(argv, callback)</span>
+            </a>
+
+        </li>
+
+        <li>
+
             <a class="apidocElementLiA" href="#apidoc.element.phonegap.app">
             function <span class="apidocSignatureSpan">phonegap.</span>app
             <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.phonegap.cli">
+            function <span class="apidocSignatureSpan">phonegap.</span>cli
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.phonegap.command">
+            function <span class="apidocSignatureSpan">phonegap.</span>command
+            <span class="apidocSignatureSpan">(phonegap)</span>
             </a>
 
         </li>
@@ -101,6 +128,15 @@
 
         <li>
 
+            <a class="apidocElementLiA" href="#apidoc.element.phonegap.remote">
+            function <span class="apidocSignatureSpan">phonegap.</span>remote
+            <span class="apidocSignatureSpan">(argv, callback)</span>
+            </a>
+
+        </li>
+
+        <li>
+
             <a class="apidocElementLiA" href="#apidoc.element.phonegap.serve">
             function <span class="apidocSignatureSpan">phonegap.</span>serve
             <span class="apidocSignatureSpan">()</span>
@@ -113,6 +149,15 @@
             <a class="apidocElementLiA" href="#apidoc.element.phonegap.share">
             function <span class="apidocSignatureSpan">phonegap.</span>share
             <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.phonegap.template">
+            function <span class="apidocSignatureSpan">phonegap.</span>template
+            <span class="apidocSignatureSpan">(argv, callback)</span>
             </a>
 
         </li>
@@ -140,6 +185,90 @@
 
         <li>
 
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">phonegap.</span>_events.error</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">phonegap.</span>cli.prototype</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">phonegap.</span>command.prototype</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">phonegap.</span>connect_proxy</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">phonegap.</span>console</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">phonegap.</span>dropbox</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">phonegap.</span>global</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">phonegap.</span>hex</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">phonegap.</span>network</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">phonegap.</span>opener</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">phonegap.</span>platform</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">phonegap.</span>project</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">phonegap.</span>sanitize_args</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">phonegap.</span>update_check</span>
+
+        </li>
+
+        <li>
+
             <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">phonegap.</span>util</span>
 
         </li>
@@ -150,9 +279,728 @@
 
         <li>
 
-            <a class="apidocElementLiA" href="#apidoc.element.phonegap._events.error">
-            function <span class="apidocSignatureSpan">phonegap._events.</span>error
+            <a class="apidocElementLiA" href="#apidoc.element.phonegap._events.log">
+            function <span class="apidocSignatureSpan">phonegap._events.</span>log
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.phonegap._events.login">
+            function <span class="apidocSignatureSpan">phonegap._events.</span>login
+            <span class="apidocSignatureSpan">(data, callback)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.phonegap._events.raw">
+            function <span class="apidocSignatureSpan">phonegap._events.</span>raw
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.phonegap._events.warn">
+            function <span class="apidocSignatureSpan">phonegap._events.</span>warn
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">phonegap._events.</span>error</span>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.phonegap._events.error">module phonegap._events.error</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.phonegap._events.error.0">
+            function <span class="apidocSignatureSpan">phonegap._events.error.</span>0
             <span class="apidocSignatureSpan">(e)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.phonegap._events.error.1">
+            function <span class="apidocSignatureSpan">phonegap._events.error.</span>1
+            <span class="apidocSignatureSpan">(e)</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.phonegap.analytics">module phonegap.analytics</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.phonegap.analytics.analytics">
+            function <span class="apidocSignatureSpan">phonegap.</span>analytics
+            <span class="apidocSignatureSpan">(argv, callback)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.phonegap.analytics.hasOptedOut">
+            function <span class="apidocSignatureSpan">phonegap.analytics.</span>hasOptedOut
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.phonegap.analytics.prompt">
+            function <span class="apidocSignatureSpan">phonegap.analytics.</span>prompt
+            <span class="apidocSignatureSpan">(callback)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.phonegap.analytics.statusUnknown">
+            function <span class="apidocSignatureSpan">phonegap.analytics.</span>statusUnknown
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.phonegap.analytics.trackEvent">
+            function <span class="apidocSignatureSpan">phonegap.analytics.</span>trackEvent
+            <span class="apidocSignatureSpan">(args, error)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">number <span class="apidocSignatureSpan">phonegap.analytics.</span>EVENT_EXPIRY_TIME</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">phonegap.analytics.</span>config</span>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.phonegap.cli">module phonegap.cli</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.phonegap.cli.cli">
+            function <span class="apidocSignatureSpan">phonegap.</span>cli
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.phonegap.cli.prototype">module phonegap.cli.prototype</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.phonegap.cli.prototype.analytics">
+            function <span class="apidocSignatureSpan">phonegap.cli.prototype.</span>analytics
+            <span class="apidocSignatureSpan">(argv, callback)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.phonegap.cli.prototype.app">
+            function <span class="apidocSignatureSpan">phonegap.cli.prototype.</span>app
+            <span class="apidocSignatureSpan">(argv, callback)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.phonegap.cli.prototype.argv">
+            function <span class="apidocSignatureSpan">phonegap.cli.prototype.</span>argv
+            <span class="apidocSignatureSpan">(argv, callback)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.phonegap.cli.prototype.cordova">
+            function <span class="apidocSignatureSpan">phonegap.cli.prototype.</span>cordova
+            <span class="apidocSignatureSpan">(argv, callback)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.phonegap.cli.prototype.create">
+            function <span class="apidocSignatureSpan">phonegap.cli.prototype.</span>create
+            <span class="apidocSignatureSpan">(argv, callback)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.phonegap.cli.prototype.help">
+            function <span class="apidocSignatureSpan">phonegap.cli.prototype.</span>help
+            <span class="apidocSignatureSpan">(argv, callback)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.phonegap.cli.prototype.install">
+            function <span class="apidocSignatureSpan">phonegap.cli.prototype.</span>install
+            <span class="apidocSignatureSpan">(argv, callback)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.phonegap.cli.prototype.local">
+            function <span class="apidocSignatureSpan">phonegap.cli.prototype.</span>local
+            <span class="apidocSignatureSpan">(argv, callback)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.phonegap.cli.prototype.push">
+            function <span class="apidocSignatureSpan">phonegap.cli.prototype.</span>push
+            <span class="apidocSignatureSpan">(argv, callback)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.phonegap.cli.prototype.recipe">
+            function <span class="apidocSignatureSpan">phonegap.cli.prototype.</span>recipe
+            <span class="apidocSignatureSpan">(argv, callback)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.phonegap.cli.prototype.remote">
+            function <span class="apidocSignatureSpan">phonegap.cli.prototype.</span>remote
+            <span class="apidocSignatureSpan">(argv, callback)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.phonegap.cli.prototype.report-issue">
+            function <span class="apidocSignatureSpan">phonegap.cli.prototype.</span>report-issue
+            <span class="apidocSignatureSpan">(argv, callback)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.phonegap.cli.prototype.serve">
+            function <span class="apidocSignatureSpan">phonegap.cli.prototype.</span>serve
+            <span class="apidocSignatureSpan">(argv, callback)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.phonegap.cli.prototype.share">
+            function <span class="apidocSignatureSpan">phonegap.cli.prototype.</span>share
+            <span class="apidocSignatureSpan">(argv, callback)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.phonegap.cli.prototype.template">
+            function <span class="apidocSignatureSpan">phonegap.cli.prototype.</span>template
+            <span class="apidocSignatureSpan">(argv, callback)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.phonegap.cli.prototype.unknown">
+            function <span class="apidocSignatureSpan">phonegap.cli.prototype.</span>unknown
+            <span class="apidocSignatureSpan">(argv, callback)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.phonegap.cli.prototype.version">
+            function <span class="apidocSignatureSpan">phonegap.cli.prototype.</span>version
+            <span class="apidocSignatureSpan">(argv, callback)</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.phonegap.command">module phonegap.command</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.phonegap.command.command">
+            function <span class="apidocSignatureSpan">phonegap.</span>command
+            <span class="apidocSignatureSpan">(phonegap)</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.phonegap.command.prototype">module phonegap.command.prototype</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.phonegap.command.prototype.run">
+            function <span class="apidocSignatureSpan">phonegap.command.prototype.</span>run
+            <span class="apidocSignatureSpan">(options, callback)</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.phonegap.connect_proxy">module phonegap.connect_proxy</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.phonegap.connect_proxy.uploadAppZip">
+            function <span class="apidocSignatureSpan">phonegap.connect_proxy.</span>uploadAppZip
+            <span class="apidocSignatureSpan">(options)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.phonegap.connect_proxy.uploadStatic">
+            function <span class="apidocSignatureSpan">phonegap.connect_proxy.</span>uploadStatic
+            <span class="apidocSignatureSpan">(archive, options)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.phonegap.connect_proxy.uploadUpdatedZip">
+            function <span class="apidocSignatureSpan">phonegap.connect_proxy.</span>uploadUpdatedZip
+            <span class="apidocSignatureSpan">(options)</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.phonegap.console">module phonegap.console</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.phonegap.console.error">
+            function <span class="apidocSignatureSpan">phonegap.console.</span>error
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.phonegap.console.log">
+            function <span class="apidocSignatureSpan">phonegap.console.</span>log
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.phonegap.console.prompt">
+            function <span class="apidocSignatureSpan">phonegap.console.</span>prompt
+            <span class="apidocSignatureSpan">(options, callback)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.phonegap.console.raw">
+            function <span class="apidocSignatureSpan">phonegap.console.</span>raw
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.phonegap.console.warn">
+            function <span class="apidocSignatureSpan">phonegap.console.</span>warn
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.phonegap.dropbox">module phonegap.dropbox</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.phonegap.dropbox.createZipArchive">
+            function <span class="apidocSignatureSpan">phonegap.dropbox.</span>createZipArchive
+            <span class="apidocSignatureSpan">(dir)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.phonegap.dropbox.upload">
+            function <span class="apidocSignatureSpan">phonegap.dropbox.</span>upload
+            <span class="apidocSignatureSpan">(callback)</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.phonegap.global">module phonegap.global</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.phonegap.global.load">
+            function <span class="apidocSignatureSpan">phonegap.global.</span>load
+            <span class="apidocSignatureSpan">(callback)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.phonegap.global.save">
+            function <span class="apidocSignatureSpan">phonegap.global.</span>save
+            <span class="apidocSignatureSpan">(data, callback)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">string <span class="apidocSignatureSpan">phonegap.global.</span>path</span>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.phonegap.hex">module phonegap.hex</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.phonegap.hex.randomValueHex">
+            function <span class="apidocSignatureSpan">phonegap.hex.</span>randomValueHex
+            <span class="apidocSignatureSpan">(len)</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.phonegap.mode">module phonegap.mode</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.phonegap.mode.create">
+            function <span class="apidocSignatureSpan">phonegap.mode.</span>create
+            <span class="apidocSignatureSpan">(phonegap)</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.phonegap.network">module phonegap.network</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.phonegap.network.isOnline">
+            function <span class="apidocSignatureSpan">phonegap.network.</span>isOnline
+            <span class="apidocSignatureSpan">(callback)</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.phonegap.opener">module phonegap.opener</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.phonegap.opener.open">
+            function <span class="apidocSignatureSpan">phonegap.opener.</span>open
+            <span class="apidocSignatureSpan">(args, options, callback)</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.phonegap.platform">module phonegap.platform</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.phonegap.platform.names">
+            function <span class="apidocSignatureSpan">phonegap.platform.</span>names
+            <span class="apidocSignatureSpan">(platforms)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.phonegap.platform.supports">
+            function <span class="apidocSignatureSpan">phonegap.platform.</span>supports
+            <span class="apidocSignatureSpan">(platforms)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">phonegap.platform.</span>map</span>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.phonegap.project">module phonegap.project</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.phonegap.project.cd">
+            function <span class="apidocSignatureSpan">phonegap.project.</span>cd
+            <span class="apidocSignatureSpan">(delegate)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.phonegap.project.checkPlatform">
+            function <span class="apidocSignatureSpan">phonegap.project.</span>checkPlatform
+            <span class="apidocSignatureSpan">(plat)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.phonegap.project.isHome">
+            function <span class="apidocSignatureSpan">phonegap.project.</span>isHome
+            <span class="apidocSignatureSpan">(homePath)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.phonegap.project.listPlatforms">
+            function <span class="apidocSignatureSpan">phonegap.project.</span>listPlatforms
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.phonegap.project.readPackage">
+            function <span class="apidocSignatureSpan">phonegap.project.</span>readPackage
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.phonegap.remote">module phonegap.remote</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.phonegap.remote.remote">
+            function <span class="apidocSignatureSpan">phonegap.</span>remote
+            <span class="apidocSignatureSpan">(argv, callback)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.phonegap.remote.build">
+            function <span class="apidocSignatureSpan">phonegap.remote.</span>build
+            <span class="apidocSignatureSpan">(argv, callback)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.phonegap.remote.install">
+            function <span class="apidocSignatureSpan">phonegap.remote.</span>install
+            <span class="apidocSignatureSpan">(argv, callback)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.phonegap.remote.login">
+            function <span class="apidocSignatureSpan">phonegap.remote.</span>login
+            <span class="apidocSignatureSpan">(argv, callback)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.phonegap.remote.logout">
+            function <span class="apidocSignatureSpan">phonegap.remote.</span>logout
+            <span class="apidocSignatureSpan">(argv, callback)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.phonegap.remote.run">
+            function <span class="apidocSignatureSpan">phonegap.remote.</span>run
+            <span class="apidocSignatureSpan">(argv, callback)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">phonegap.remote.</span>cli</span>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.phonegap.sanitize_args">module phonegap.sanitize_args</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.phonegap.sanitize_args.filterParameters">
+            function <span class="apidocSignatureSpan">phonegap.sanitize_args.</span>filterParameters
+            <span class="apidocSignatureSpan">(args)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.phonegap.sanitize_args.getCommand">
+            function <span class="apidocSignatureSpan">phonegap.sanitize_args.</span>getCommand
+            <span class="apidocSignatureSpan">(args)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.phonegap.sanitize_args.getSwitches">
+            function <span class="apidocSignatureSpan">phonegap.sanitize_args.</span>getSwitches
+            <span class="apidocSignatureSpan">(args)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.phonegap.sanitize_args.stringifyForGoogleAnalytics">
+            function <span class="apidocSignatureSpan">phonegap.sanitize_args.</span>stringifyForGoogleAnalytics
+            <span class="apidocSignatureSpan">(args)</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.phonegap.template">module phonegap.template</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.phonegap.template.template">
+            function <span class="apidocSignatureSpan">phonegap.</span>template
+            <span class="apidocSignatureSpan">(argv, callback)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.phonegap.template.list">
+            function <span class="apidocSignatureSpan">phonegap.template.</span>list
+            <span class="apidocSignatureSpan">(argv, callback)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.phonegap.template.search">
+            function <span class="apidocSignatureSpan">phonegap.template.</span>search
+            <span class="apidocSignatureSpan">(argv, callback)</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.phonegap.update_check">module phonegap.update_check</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.phonegap.update_check.start">
+            function <span class="apidocSignatureSpan">phonegap.update_check.</span>start
+            <span class="apidocSignatureSpan">()</span>
             </a>
 
         </li>
@@ -166,6 +1014,58 @@
 
 
     <h2>
+        <a href="#apidoc.element.phonegap.analytics" id="apidoc.element.phonegap.analytics">
+        function <span class="apidocSignatureSpan">phonegap.</span>analytics
+        <span class="apidocSignatureSpan">(argv, callback)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function analytics(argv, callback) {
+    var params = argv._.slice(1);
+
+    if (params.length &gt; 0) {
+        switch(params[0].toLowerCase()) {
+            case "on" :
+                // only track it if the value is changing
+                if (insight.optOut !== false) {
+                    // must change it before we use it
+                    insight.optOut = false;
+                    module.exports.trackEvent(argv._);
+                }
+                break;
+            case "off" :
+                // track it only if it changes
+                if (insight.optOut !== true) {
+                    // must use it before we change it
+                    module.exports.trackEvent(argv._);
+                    insight.optOut = true;
+                }
+                break;
+            case "reset" :
+                // this is a secret api, mainly just for testing the prompt messages
+                console.log("resetting it .. ");
+                insight.optOut = undefined;
+                break;
+        }
+    }
+    if (insight.optOut === undefined) {
+    } else {
+        // somewhat confusing tri-state, it could be true|false|undefined
+        if (insight.optOut) {
+            console.log(AnalyticsOffMessage);
+        }
+        else {
+            console.log(AnalyticsOnMessage);
+        }
+    }
+    callback();
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
         <a href="#apidoc.element.phonegap.app" id="apidoc.element.phonegap.app">
         function <span class="apidocSignatureSpan">phonegap.</span>app
         <span class="apidocSignatureSpan">()</span>
@@ -174,6 +1074,59 @@
     <ul>
     <li>description and source-code<pre class="apidocCodePre">app = function () {
     return self.run.apply(self, arguments);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+ * Module dependencies.
+ */
+
+var PhoneGap = require('../../lib/phonegap'),
+phonegap;
+
+/*!
+ * Specification: phonegap.<span class="apidocCodeKeywordSpan">app</span>(options, [callback])
+ */
+
+describe('phonegap.app(options, [callback])', function() {
+beforeEach(function() {
+    phonegap = new PhoneGap();
+});
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.phonegap.cli" id="apidoc.element.phonegap.cli">
+        function <span class="apidocSignatureSpan">phonegap.</span>cli
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function CLI() {
+    // This can be prevented by using dependency injection
+    this.cli = this;
+    this.local.cli = this;
+    this.remote.cli = this;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.phonegap.command" id="apidoc.element.phonegap.command">
+        function <span class="apidocSignatureSpan">phonegap.</span>command
+        <span class="apidocSignatureSpan">(phonegap)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function Command(phonegap) {
+    this.phonegap = phonegap;
+
+    var self = this;
+    return function() {
+        return self.run.apply(self, arguments);
+    };
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -190,7 +1143,23 @@
     <li>description and source-code<pre class="apidocCodePre">cordova = function () {
     return self.run.apply(self, arguments);
 }</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+            argv.e = false;
+        }
+    }
+}
+
+// cordova commands should bypass all processing
+if (argv._[0] &amp;&amp; argv._[0].match(/cordova/i)) {
+    this.<span class="apidocCodeKeywordSpan">cordova</span>(argv, callback);
+    return;
+}
+
+// --version
+if (argv.version || argv.v) {
+    this.version(argv, callback);
+    return;
+...</pre></li>
     </ul>
 
 
@@ -205,7 +1174,23 @@
     <li>description and source-code<pre class="apidocCodePre">create = function () {
     return self.run.apply(self, arguments);
 }</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+ */
+
+function PhoneGap() {
+// initialize PhoneGap
+initialize.call(this);
+
+// initialize each command and inject the `phonegap` dependency.
+this.cordova = require('./phonegap/cordova').<span class="apidocCodeKeywordSpan">create</span>(this);
+this.create = require('./phonegap/create').create(this);
+this.mode = require('./phonegap/mode').create(this);
+this.template.list = require('./phonegap/template.list').create(this);
+this.template.search = require('./phonegap/template.search').create(this);
+this.remote.build = require('./phonegap/remote.build').create(this);
+this.remote.install = require('./phonegap/remote.install').create(this);
+this.remote.login = require('./phonegap/remote.login').create(this);
+...</pre></li>
     </ul>
 
 
@@ -220,7 +1205,23 @@
     <li>description and source-code<pre class="apidocCodePre">mode = function () {
     return self.run.apply(self, arguments);
 }</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+    this.serve = require('./phonegap/serve').create(this);
+    this.app = this.serve;
+    this.version = require('./phonegap/version').create(this);
+    this.push = require('./phonegap/push').create(this);
+    this.share = require('./phonegap/share').create(this);
+
+    // set normal mode (not verbose and not quiet)
+    this.<span class="apidocCodeKeywordSpan">mode</span>({ verbose: false });
+
+    // utility methods
+    this.util = {};
+    this.util.cordova = require('./cordova').cordova;
+}
+
+util.inherits(PhoneGap, events.EventEmitter);
+...</pre></li>
     </ul>
 
 
@@ -234,6 +1235,47 @@
     <ul>
     <li>description and source-code<pre class="apidocCodePre">push = function () {
     return self.run.apply(self, arguments);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+// wrap any arguments that contain whitespace in quotations.
+// example: cordova create path/to/my-app --name "Hello World"
+cordovaCommand = cordovaCommand.map(function(command) {
+    return (/\s/.test(command)) ? '"' + command + '"' : command;
+});
+
+// stop cordova-cli from tracking us!
+cordovaCommand.<span class="apidocCodeKeywordSpan">push</span>("--no-telemetry");
+
+// create a string representing the cordova command
+cordovaCommand = cordovaCommand.join(' ');
+
+phonegap.cordova({
+    cmd: cordovaCommand,
+    verbose: argv.verbose
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.phonegap.remote" id="apidoc.element.phonegap.remote">
+        function <span class="apidocSignatureSpan">phonegap.</span>remote
+        <span class="apidocSignatureSpan">(argv, callback)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">remote = function (argv, callback) {
+    var self = this;
+
+    // display help when given no command
+    if (argv._.length &lt;= 1) {
+        argv._.unshift('help');
+        self.argv(argv, callback);
+        return;
+    }
+
+    // command is unknown
+    self.cli.unknown(argv, callback);
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -250,7 +1292,23 @@
     <li>description and source-code<pre class="apidocCodePre">serve = function () {
     return self.run.apply(self, arguments);
 }</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+localtunnel: argv.localtunnel,
+proxy: !argv.proxy, // build commands expect default of false, but connect-phonegap expects default of true
+push: argv.push,
+refresh: argv.refresh,
+verbose: argv.verbose
+    };
+
+    phonegap.<span class="apidocCodeKeywordSpan">serve</span>(data, function(e, server) {
+if (!e) {
+    console.log('');
+    console.log('ctrl-c to stop the server');
+    console.log('');
+}
+
+callback(e);
+...</pre></li>
     </ul>
 
 
@@ -264,6 +1322,44 @@
     <ul>
     <li>description and source-code<pre class="apidocCodePre">share = function () {
     return self.run.apply(self, arguments);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+module.exports = function(argv, callback) {
+    var data = {
+        dropbox: argv.dropbox,
+        chrome: argv.chrome,
+        connect: argv.connect
+    };
+
+    phonegap.<span class="apidocCodeKeywordSpan">share</span>(data, function(e) {
+        callback(e);
+    });
+};
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.phonegap.template" id="apidoc.element.phonegap.template">
+        function <span class="apidocSignatureSpan">phonegap.</span>template
+        <span class="apidocSignatureSpan">(argv, callback)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">template = function (argv, callback) {
+    var self = this;
+
+    // display help when given no command
+    if (argv._.length &lt;= 1) {
+        argv._[0] = 'template'; // replace recipe with template
+        argv._.unshift('help');
+        self.argv(argv, callback);
+        return;
+    }
+
+    // command is unknown
+    self.cli.unknown(argv, callback);
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -280,8 +1376,52 @@
     <li>description and source-code<pre class="apidocCodePre">version = function () {
     return self.run.apply(self, arguments);
 }</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+if (argv._[0] &amp;&amp; argv._[0].match(/cordova/i)) {
+    this.cordova(argv, callback);
+    return;
+}
+
+// --version
+if (argv.version || argv.v) {
+    this.<span class="apidocCodeKeywordSpan">version</span>(argv, callback);
+    return;
+}
+
+// --verbose
+if (argv.verbose || argv.d) {
+    argv.verbose = true;
+    phonegap.mode({ verbose: true });
+...</pre></li>
     </ul>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -297,14 +1437,2892 @@
 
 
     <h2>
-        <a href="#apidoc.element.phonegap._events.error" id="apidoc.element.phonegap._events.error">
-        function <span class="apidocSignatureSpan">phonegap._events.</span>error
+        <a href="#apidoc.element.phonegap._events.log" id="apidoc.element.phonegap._events.log">
+        function <span class="apidocSignatureSpan">phonegap._events.</span>log
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">log = function () {
+    console.log.apply(this, arguments);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+                // must use it before we change it
+                module.exports.trackEvent(argv._);
+                insight.optOut = true;
+            }
+            break;
+        case "reset" :
+            // this is a secret api, mainly just for testing the prompt messages
+            console.<span class="apidocCodeKeywordSpan">log</span>("resetting it .. ");
+            insight.optOut = undefined;
+            break;
+    }
+}
+if (insight.optOut === undefined) {
+} else {
+    // somewhat confusing tri-state, it could be true|false|undefined
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.phonegap._events.login" id="apidoc.element.phonegap._events.login">
+        function <span class="apidocSignatureSpan">phonegap._events.</span>login
+        <span class="apidocSignatureSpan">(data, callback)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">login = function (data, callback) {
+    // console.prompt setup
+    var promptOptions = {
+        // use provided values
+        override: data,
+
+        // prompt properties
+        data: {
+            properties: {
+                username: {
+                    required: true,
+                    description: 'enter username:'
+                },
+                password: {
+                    hidden: true,
+                    required: true,
+                    description: 'enter password:'
+                }
+            }
+        }
+    };
+
+    // begin prompting
+    console.prompt(promptOptions, function(e, result) {
+        callback(e, result);
+    });
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+       protocol: argv.protocol,
+       host: argv.host,
+       port: argv.port,
+       path: argv.path,
+       proxy: argv.proxy
+   };
+
+   phonegap.remote.<span class="apidocCodeKeywordSpan">login</span>(data, function(e, api) {
+       callback(e, api);
+   });
+};
+
+/**
+* Bind login event handler.
+*
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.phonegap._events.raw" id="apidoc.element.phonegap._events.raw">
+        function <span class="apidocSignatureSpan">phonegap._events.</span>raw
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">raw = function () {
+    console.raw.apply(this, arguments);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.phonegap._events.warn" id="apidoc.element.phonegap._events.warn">
+        function <span class="apidocSignatureSpan">phonegap._events.</span>warn
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">warn = function () {
+    console.warn.apply(this, arguments);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.phonegap._events.error" id="apidoc.module.phonegap._events.error">module phonegap._events.error</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.phonegap._events.error.0" id="apidoc.element.phonegap._events.error.0">
+        function <span class="apidocSignatureSpan">phonegap._events.error.</span>0
         <span class="apidocSignatureSpan">(e)</span>
         </a>
     </h2>
     <ul>
-    <li>description and source-code<pre class="apidocCodePre">error = function (e) {}</pre></li>
+    <li>description and source-code<pre class="apidocCodePre">0 = function (e) {}</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.phonegap._events.error.1" id="apidoc.element.phonegap._events.error.1">
+        function <span class="apidocSignatureSpan">phonegap._events.error.</span>1
+        <span class="apidocSignatureSpan">(e)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">1 = function (e) {
+    console.error.call(this, (e.message || e));
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.phonegap.analytics" id="apidoc.module.phonegap.analytics">module phonegap.analytics</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.phonegap.analytics.analytics" id="apidoc.element.phonegap.analytics.analytics">
+        function <span class="apidocSignatureSpan">phonegap.</span>analytics
+        <span class="apidocSignatureSpan">(argv, callback)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function analytics(argv, callback) {
+    var params = argv._.slice(1);
+
+    if (params.length &gt; 0) {
+        switch(params[0].toLowerCase()) {
+            case "on" :
+                // only track it if the value is changing
+                if (insight.optOut !== false) {
+                    // must change it before we use it
+                    insight.optOut = false;
+                    module.exports.trackEvent(argv._);
+                }
+                break;
+            case "off" :
+                // track it only if it changes
+                if (insight.optOut !== true) {
+                    // must use it before we change it
+                    module.exports.trackEvent(argv._);
+                    insight.optOut = true;
+                }
+                break;
+            case "reset" :
+                // this is a secret api, mainly just for testing the prompt messages
+                console.log("resetting it .. ");
+                insight.optOut = undefined;
+                break;
+        }
+    }
+    if (insight.optOut === undefined) {
+    } else {
+        // somewhat confusing tri-state, it could be true|false|undefined
+        if (insight.optOut) {
+            console.log(AnalyticsOffMessage);
+        }
+        else {
+            console.log(AnalyticsOnMessage);
+        }
+    }
+    callback();
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.phonegap.analytics.hasOptedOut" id="apidoc.element.phonegap.analytics.hasOptedOut">
+        function <span class="apidocSignatureSpan">phonegap.analytics.</span>hasOptedOut
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function hasOptedOut() {
+    return insight.optOut === true;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+// otherwise default to 1.
+var exitCode = error ? error.exitCode || 1 : 0;
+var cleanedResult = sanitizeArgs.stringifyForGoogleAnalytics(args);
+var category = cleanedResult.command;
+var action = cleanedResult.params;
+var label = exitCode + "";
+var value = cleanedResult.count;
+if (module.exports.<span class="apidocCodeKeywordSpan">hasOptedOut</span>() === false) {
+    if (cleanedResult.command) {
+        // If we have a command parsed out, send it off to metrics
+        var info = basicGELF();
+        info.short_message = sanitizeArgs.getCommand(args);
+        info._flags = sanitizeArgs.getSwitches(args);
+        info._exitCode = exitCode;
+        info._params = sanitizeArgs.filterParameters(args);
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.phonegap.analytics.prompt" id="apidoc.element.phonegap.analytics.prompt">
+        function <span class="apidocSignatureSpan">phonegap.analytics.</span>prompt
+        <span class="apidocSignatureSpan">(callback)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function prompt(callback) {
+    console.log(PromptPreamble);
+
+    insight.askPermission(PromptMessage,function(error,optIn) {
+        if (optIn) {
+            // user has accepted, we will thank them and track this
+            insight.trackEvent({"category":"analytics-prompt",
+                                "action":"accepted",
+                                "label":""});
+
+            var info = basicGELF();
+            info.short_message = "analytics-prompt accepted";
+            sendAnalytics(info);
+
+            console.log(AnalyticsOnMessage);
+        }
+        else {
+            // user has declined, we still want to track this
+            insight.optOut = false;
+            insight.trackEvent({"category":"analytics-prompt",
+                                "action":"declined",
+                                "label":""});
+
+            var info = basicGELF();
+            info.short_message = "analytics-prompt declined";
+            sendAnalytics(info);
+
+            insight.optOut = true;
+            console.log(AnalyticsOffMessage);
+        }
+        callback();
+    });
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+if (analytics.statusUnknown()) {
+    // if it is an analytics command, just run it
+    if (process.argv.length &gt; 2 &amp;&amp; process.argv[2] === 'analytics') {
+        runPhoneGapCommand();
+    }
+    else {
+        // otherwise prompt and then run it
+        analytics.<span class="apidocCodeKeywordSpan">prompt</span>(runPhoneGapCommand);
+    }
+}
+else {
+    runPhoneGapCommand();
+}
+
+/*!
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.phonegap.analytics.statusUnknown" id="apidoc.element.phonegap.analytics.statusUnknown">
+        function <span class="apidocSignatureSpan">phonegap.analytics.</span>statusUnknown
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function statusUnknown() {
+    return insight.optOut === undefined;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+ * Module dependencies.
+ */
+
+var CLI = require('../lib/cli');
+var cli = new CLI();
+var analytics = cli.analytics;
+
+if (analytics.<span class="apidocCodeKeywordSpan">statusUnknown</span>()) {
+// if it is an analytics command, just run it
+if (process.argv.length &gt; 2 &amp;&amp; process.argv[2] === 'analytics') {
+    runPhoneGapCommand();
+}
+else {
+    // otherwise prompt and then run it
+    analytics.prompt(runPhoneGapCommand);
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.phonegap.analytics.trackEvent" id="apidoc.element.phonegap.analytics.trackEvent">
+        function <span class="apidocSignatureSpan">phonegap.analytics.</span>trackEvent
+        <span class="apidocSignatureSpan">(args, error)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function trackEvent(args, error) {
+    // if we received an error, then we will exit with an error status
+    // if an exit code was attached to the error, then use it
+    // otherwise default to 1.
+    var exitCode = error ? error.exitCode || 1 : 0;
+    var cleanedResult = sanitizeArgs.stringifyForGoogleAnalytics(args);
+    var category = cleanedResult.command;
+    var action = cleanedResult.params;
+    var label = exitCode + "";
+    var value = cleanedResult.count;
+    if (module.exports.hasOptedOut() === false) {
+        if (cleanedResult.command) {
+            // If we have a command parsed out, send it off to metrics
+            var info = basicGELF();
+            info.short_message = sanitizeArgs.getCommand(args);
+            info._flags = sanitizeArgs.getSwitches(args);
+            info._exitCode = exitCode;
+            info._params = sanitizeArgs.filterParameters(args);
+            if (error) {
+                if (error.stack) info._error_stack = error.stack;
+                if (error.output) info._error_msg = error.output;
+            }
+            sendAnalytics(info);
+        }
+        category = category || "-";
+        action = action || "-";
+        label = label || "-";
+        value = value || 0;
+        insight.trackEvent({"category":category,
+                            "action":action,
+                            "label":label,
+                            "value":value});
+    }
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+ * Run the command-line client.
+ */
+function runPhoneGapCommand() {
+    // pass it into normal flow
+    cli.argv(process.argv, function(e) {
+        var args = Array.prototype.slice.call(process.argv);
+        // analytics module will skip if it is not enabled
+        analytics.<span class="apidocCodeKeywordSpan">trackEvent</span>(args.slice(2), e); // slice off the first two, as that contains
+ node [0] and phonegap.js [1]
+        process.exitCode = e ? e.exitCode || 1 : 0;
+    });
+}
+...</pre></li>
+    </ul>
+
+
+
+
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.phonegap.cli" id="apidoc.module.phonegap.cli">module phonegap.cli</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.phonegap.cli.cli" id="apidoc.element.phonegap.cli.cli">
+        function <span class="apidocSignatureSpan">phonegap.</span>cli
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function CLI() {
+    // This can be prevented by using dependency injection
+    this.cli = this;
+    this.local.cli = this;
+    this.remote.cli = this;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.phonegap.cli.prototype" id="apidoc.module.phonegap.cli.prototype">module phonegap.cli.prototype</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.phonegap.cli.prototype.analytics" id="apidoc.element.phonegap.cli.prototype.analytics">
+        function <span class="apidocSignatureSpan">phonegap.cli.prototype.</span>analytics
+        <span class="apidocSignatureSpan">(argv, callback)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function analytics(argv, callback) {
+    var params = argv._.slice(1);
+
+    if (params.length &gt; 0) {
+        switch(params[0].toLowerCase()) {
+            case "on" :
+                // only track it if the value is changing
+                if (insight.optOut !== false) {
+                    // must change it before we use it
+                    insight.optOut = false;
+                    module.exports.trackEvent(argv._);
+                }
+                break;
+            case "off" :
+                // track it only if it changes
+                if (insight.optOut !== true) {
+                    // must use it before we change it
+                    module.exports.trackEvent(argv._);
+                    insight.optOut = true;
+                }
+                break;
+            case "reset" :
+                // this is a secret api, mainly just for testing the prompt messages
+                console.log("resetting it .. ");
+                insight.optOut = undefined;
+                break;
+        }
+    }
+    if (insight.optOut === undefined) {
+    } else {
+        // somewhat confusing tri-state, it could be true|false|undefined
+        if (insight.optOut) {
+            console.log(AnalyticsOffMessage);
+        }
+        else {
+            console.log(AnalyticsOnMessage);
+        }
+    }
+    callback();
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.phonegap.cli.prototype.app" id="apidoc.element.phonegap.cli.prototype.app">
+        function <span class="apidocSignatureSpan">phonegap.cli.prototype.</span>app
+        <span class="apidocSignatureSpan">(argv, callback)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">app = function (argv, callback) {
+    // options
+    var data = {
+        port: argv.port || argv.p,
+        autoreload: argv.autoreload,
+        browser: argv.browser,
+        console: argv.console,
+        deploy: argv.deploy,
+        homepage: argv.homepage,
+        localtunnel: argv.localtunnel,
+        proxy: !argv.proxy, // build commands expect default of false, but connect-phonegap expects default of true
+        push: argv.push,
+        refresh: argv.refresh,
+        verbose: argv.verbose
+    };
+
+    phonegap.serve(data, function(e, server) {
+        if (!e) {
+            console.log('');
+            console.log('ctrl-c to stop the server');
+            console.log('');
+        }
+
+        callback(e);
+    });
+
+    // gracefully exit on ctrl-c
+    process.on('SIGINT', function() {
+        process.exit();
+    });
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+ * Module dependencies.
+ */
+
+var PhoneGap = require('../../lib/phonegap'),
+phonegap;
+
+/*!
+ * Specification: phonegap.<span class="apidocCodeKeywordSpan">app</span>(options, [callback])
+ */
+
+describe('phonegap.app(options, [callback])', function() {
+beforeEach(function() {
+    phonegap = new PhoneGap();
+});
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.phonegap.cli.prototype.argv" id="apidoc.element.phonegap.cli.prototype.argv">
+        function <span class="apidocSignatureSpan">phonegap.cli.prototype.</span>argv
+        <span class="apidocSignatureSpan">(argv, callback)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">argv = function (argv, callback) {
+    // optional callback
+    callback = callback || function() {};
+
+    // parse process.argv for easy --flag handling
+    // skipped when already parsed
+    if (!argv._) {
+        var processArgv = Array.prototype.slice.call(argv);
+        argv = require('minimist')(argv.slice(2), {
+            boolean: module.exports.FLAGS,
+            default: {
+                'autoreload': true,
+                'browser': true,
+                'console': true,
+                'deploy': true,
+                'homepage': true,
+                'localtunnel': false,
+                'proxy': false,
+                'push': true,
+                'refresh': true
+            }
+        });
+
+        // add $0 for backward-compatibility for optimist.
+        argv.$0 = path.basename(processArgv[1]).replace('.js', '');
+
+        // add original argv command without minimist formatting
+        argv.processArgv = processArgv;
+
+        // add -e support to Cordova commands
+        if (argv.e) {
+            var index = argv.processArgv.indexOf('-e');
+            if (index &gt;= 0) {
+                argv.processArgv[index] = '--emulator';
+                argv.emulator = true;
+                argv.e = false;
+            }
+        }
+    }
+
+    // cordova commands should bypass all processing
+    if (argv._[0] &amp;&amp; argv._[0].match(/cordova/i)) {
+        this.cordova(argv, callback);
+        return;
+    }
+
+    // --version
+    if (argv.version || argv.v) {
+        this.version(argv, callback);
+        return;
+    }
+
+    // --verbose
+    if (argv.verbose || argv.d) {
+        argv.verbose = true;
+        phonegap.mode({ verbose: true });
+    }
+
+    // --help
+    // --help &lt;command&gt;
+    if (argv.help || argv.h) {
+        argv._.unshift('help');
+    }
+
+    // support &lt;command&gt; help
+    if (argv._[argv._.length-1] === 'help' &amp;&amp; argv._.length &gt; 1) {
+        argv._.pop();
+        argv._.unshift('help');
+    }
+
+    // no command displays help
+    if (!argv._.length) {
+        argv._.unshift('help');
+    }
+
+    // lookup command to execute
+    var command = this;
+    for (var i = 0, l = argv._.length; i &lt; l; i++) {
+        if (typeof command[argv._[i]] === 'function') {
+            command = command[argv._[i]];
+        }
+        else {
+            break;
+        }
+    }
+
+    // execute unknown commands with cordova
+    if (command === this) {
+        argv.processArgv.splice(2, 0, 'cordova');
+        argv._.unshift('cordova');
+        this.cordova(argv, callback);
+    }
+    // execute all other commands with phonegap
+    else {
+        command.call(this, argv, callback);
+    }
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+}
+
+/*!
+ * Run the command-line client.
+ */
+function runPhoneGapCommand() {
+    // pass it into normal flow
+    cli.<span class="apidocCodeKeywordSpan">argv</span>(process.argv, function(e) {
+        var args = Array.prototype.slice.call(process.argv);
+        // analytics module will skip if it is not enabled
+        analytics.trackEvent(args.slice(2), e); // slice off the first two, as that contains node [0] and phonegap.js [1]
+        process.exitCode = e ? e.exitCode || 1 : 0;
+    });
+}
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.phonegap.cli.prototype.cordova" id="apidoc.element.phonegap.cli.prototype.cordova">
+        function <span class="apidocSignatureSpan">phonegap.cli.prototype.</span>cordova
+        <span class="apidocSignatureSpan">(argv, callback)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">cordova = function (argv, callback) {
+    var cordovaCommand = Array.prototype.slice.call(argv.processArgv);
+
+    // given the command:
+    //    $ phonegap cordova run some command --foo=BAR
+    // construct the equivalent cordova command:
+    //    $ cordova run some command --foo=BAR
+    while(cordovaCommand[0] !== 'cordova') {
+        cordovaCommand.shift();
+    }
+
+    // wrap any arguments that contain whitespace in quotations.
+    // example: cordova create path/to/my-app --name "Hello World"
+    cordovaCommand = cordovaCommand.map(function(command) {
+        return (/\s/.test(command)) ? '"' + command + '"' : command;
+    });
+
+    // stop cordova-cli from tracking us!
+    cordovaCommand.push("--no-telemetry");
+
+    // create a string representing the cordova command
+    cordovaCommand = cordovaCommand.join(' ');
+
+    phonegap.cordova({
+        cmd: cordovaCommand,
+        verbose: argv.verbose
+    }, callback);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+            argv.e = false;
+        }
+    }
+}
+
+// cordova commands should bypass all processing
+if (argv._[0] &amp;&amp; argv._[0].match(/cordova/i)) {
+    this.<span class="apidocCodeKeywordSpan">cordova</span>(argv, callback);
+    return;
+}
+
+// --version
+if (argv.version || argv.v) {
+    this.version(argv, callback);
+    return;
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.phonegap.cli.prototype.create" id="apidoc.element.phonegap.cli.prototype.create">
+        function <span class="apidocSignatureSpan">phonegap.cli.prototype.</span>create
+        <span class="apidocSignatureSpan">(argv, callback)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">create = function (argv, callback) {
+    // display help on $ phonegap create
+    if (argv._.length &lt;= 1) {
+        argv._.unshift('help');
+        this.argv(argv, callback);
+        return;
+    }
+
+    // project info
+    var data = {
+        path: argv._[1],
+        id: argv._[2] || argv.id || argv.i,
+        name: argv._[3] || argv.name || argv.n,
+        config: JSON.parse(argv._[4] || '{}'),
+        'link-to': argv['link-to'],
+        'copy-from': argv['copy-from'],
+        'template': argv['template'] || argv['recipe']
+    };
+
+    // support cordova's unconventional -src shorthand flag
+    if (!data['copy-from']) {
+        if (argv.s &amp;&amp; argv.r &amp;&amp; argv.c &amp;&amp; typeof argv.c === 'string') {
+            data['copy-from'] = argv.c;
+        }
+    }
+
+    // create the project
+    phonegap.create(data, function(e) {
+        callback(e);
+    });
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+ */
+
+function PhoneGap() {
+// initialize PhoneGap
+initialize.call(this);
+
+// initialize each command and inject the `phonegap` dependency.
+this.cordova = require('./phonegap/cordova').<span class="apidocCodeKeywordSpan">create</span>(this);
+this.create = require('./phonegap/create').create(this);
+this.mode = require('./phonegap/mode').create(this);
+this.template.list = require('./phonegap/template.list').create(this);
+this.template.search = require('./phonegap/template.search').create(this);
+this.remote.build = require('./phonegap/remote.build').create(this);
+this.remote.install = require('./phonegap/remote.install').create(this);
+this.remote.login = require('./phonegap/remote.login').create(this);
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.phonegap.cli.prototype.help" id="apidoc.element.phonegap.cli.prototype.help">
+        function <span class="apidocSignatureSpan">phonegap.cli.prototype.</span>help
+        <span class="apidocSignatureSpan">(argv, callback)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">help = function (argv, callback) {
+    // help file directory
+    var basepath = path.join(__dirname, '..', '..', 'doc', 'cli'),
+        filepath,
+        data;
+
+    // filename format: command.command.txt
+    filepath = argv._.slice(0);
+    filepath.push('txt');
+    filepath = filepath.join('.');
+
+    // alias for the serve, plugin, template commands
+    filepath = filepath.replace('help.app.txt', 'help.serve.txt');
+    filepath = filepath.replace('help.plugin', 'help.local.plugin');
+    filepath = filepath.replace('help.recipe', 'help.template');
+
+    // full path
+    filepath = path.join(basepath, filepath);
+
+    // get help info and replace $0 with process name
+    if (!fs.existsSync(filepath)) {
+        this.cli.unknown(argv, callback);
+        return;
+    }
+    data = fs.readFileSync(filepath, 'utf8');
+    data = data.trim().replace(/\$0/g, argv.$0);
+
+    console.log('\n' + data + '\n');
+    callback(null);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.phonegap.cli.prototype.install" id="apidoc.element.phonegap.cli.prototype.install">
+        function <span class="apidocSignatureSpan">phonegap.cli.prototype.</span>install
+        <span class="apidocSignatureSpan">(argv, callback)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">install = function (argv, callback) {
+    // display help on $ phonegap create
+    if (argv._.length &lt;= 1) {
+        argv._.unshift('help');
+        this.argv(argv, callback);
+        return;
+    }
+
+    // delegate to `phonegap run &lt;platform&gt;`
+    for(var i = 0, l = argv._.length; i &lt; l; i++) {
+        if (argv._[i] === 'install') {
+            argv.processArgv[i + 2] = 'run';
+            argv._[i] = 'run';
+            i = l;
+        }
+    }
+
+    phonegap.emit('warn', 'The command `phonegap install` has been DEPRECATED.');
+    phonegap.emit('warn', 'The command has been delegated to `phonegap run`.');
+    phonegap.emit('warn', 'The command will soon be removed.');
+
+    this.argv(argv, callback);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+        host: argv.host,
+        port: argv.port,
+        path: argv.path,
+        proxy: argv.proxy
+    };
+
+    // run the project
+    phonegap.remote.<span class="apidocCodeKeywordSpan">install</span>(data, function(e, data) {
+        callback(e, data);
+    });
+};
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.phonegap.cli.prototype.local" id="apidoc.element.phonegap.cli.prototype.local">
+        function <span class="apidocSignatureSpan">phonegap.cli.prototype.</span>local
+        <span class="apidocSignatureSpan">(argv, callback)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">local = function (argv, callback) {
+    var self = this;
+
+    // display help when given no command
+    if (argv._.length &lt;= 1) {
+        argv._.unshift('help');
+        self.argv(argv, callback);
+        return;
+    }
+
+    phonegap.emit('warn', 'The command `phonegap local &lt;command&gt;` has been DEPRECATED.');
+    phonegap.emit('warn', 'The command has been delegated to `phonegap &lt;command&gt;`.');
+    phonegap.emit('warn', 'The command `phonegap local &lt;command&gt;` will soon be removed.');
+
+    // redirect to `$ phonegap &lt;command&gt;` which delegates to a cordova command
+    argv.processArgv.splice(2, 1);  // remove the 'local' command
+    argv._.shift();                 // remove the 'local' command
+    self.cli.argv(argv, callback);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.phonegap.cli.prototype.push" id="apidoc.element.phonegap.cli.prototype.push">
+        function <span class="apidocSignatureSpan">phonegap.cli.prototype.</span>push
+        <span class="apidocSignatureSpan">(argv, callback)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">push = function (argv, callback) {
+    // options
+    var data = {
+        deviceID: argv.deviceID,
+        service: argv.service,
+        payload: argv.payload,
+        file: argv.file
+    };
+
+    phonegap.push(data, function(e, server) {
+        callback(e);
+    });
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+// wrap any arguments that contain whitespace in quotations.
+// example: cordova create path/to/my-app --name "Hello World"
+cordovaCommand = cordovaCommand.map(function(command) {
+    return (/\s/.test(command)) ? '"' + command + '"' : command;
+});
+
+// stop cordova-cli from tracking us!
+cordovaCommand.<span class="apidocCodeKeywordSpan">push</span>("--no-telemetry");
+
+// create a string representing the cordova command
+cordovaCommand = cordovaCommand.join(' ');
+
+phonegap.cordova({
+    cmd: cordovaCommand,
+    verbose: argv.verbose
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.phonegap.cli.prototype.recipe" id="apidoc.element.phonegap.cli.prototype.recipe">
+        function <span class="apidocSignatureSpan">phonegap.cli.prototype.</span>recipe
+        <span class="apidocSignatureSpan">(argv, callback)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">recipe = function (argv, callback) {
+    var self = this;
+
+    // display help when given no command
+    if (argv._.length &lt;= 1) {
+        argv._[0] = 'template'; // replace recipe with template
+        argv._.unshift('help');
+        self.argv(argv, callback);
+        return;
+    }
+
+    // command is unknown
+    self.cli.unknown(argv, callback);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.phonegap.cli.prototype.remote" id="apidoc.element.phonegap.cli.prototype.remote">
+        function <span class="apidocSignatureSpan">phonegap.cli.prototype.</span>remote
+        <span class="apidocSignatureSpan">(argv, callback)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">remote = function (argv, callback) {
+    var self = this;
+
+    // display help when given no command
+    if (argv._.length &lt;= 1) {
+        argv._.unshift('help');
+        self.argv(argv, callback);
+        return;
+    }
+
+    // command is unknown
+    self.cli.unknown(argv, callback);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.phonegap.cli.prototype.report-issue" id="apidoc.element.phonegap.cli.prototype.report-issue">
+        function <span class="apidocSignatureSpan">phonegap.cli.prototype.</span>report-issue
+        <span class="apidocSignatureSpan">(argv, callback)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">report-issue = function (argv, callback) {
+    var dataStr =  '\nnode-version:\t' + process.version +
+                   '\ncli-version:\t' + pkgjson.version +
+                   '\nplatform:\t' + os_name() +
+                   '\n --- \n';
+
+    var url = baseUrl + prelude + escape(dataStr) + coda;
+
+    opener(url);
+    callback();
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.phonegap.cli.prototype.serve" id="apidoc.element.phonegap.cli.prototype.serve">
+        function <span class="apidocSignatureSpan">phonegap.cli.prototype.</span>serve
+        <span class="apidocSignatureSpan">(argv, callback)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">serve = function (argv, callback) {
+    // options
+    var data = {
+        port: argv.port || argv.p,
+        autoreload: argv.autoreload,
+        browser: argv.browser,
+        console: argv.console,
+        deploy: argv.deploy,
+        homepage: argv.homepage,
+        localtunnel: argv.localtunnel,
+        proxy: !argv.proxy, // build commands expect default of false, but connect-phonegap expects default of true
+        push: argv.push,
+        refresh: argv.refresh,
+        verbose: argv.verbose
+    };
+
+    phonegap.serve(data, function(e, server) {
+        if (!e) {
+            console.log('');
+            console.log('ctrl-c to stop the server');
+            console.log('');
+        }
+
+        callback(e);
+    });
+
+    // gracefully exit on ctrl-c
+    process.on('SIGINT', function() {
+        process.exit();
+    });
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+localtunnel: argv.localtunnel,
+proxy: !argv.proxy, // build commands expect default of false, but connect-phonegap expects default of true
+push: argv.push,
+refresh: argv.refresh,
+verbose: argv.verbose
+    };
+
+    phonegap.<span class="apidocCodeKeywordSpan">serve</span>(data, function(e, server) {
+if (!e) {
+    console.log('');
+    console.log('ctrl-c to stop the server');
+    console.log('');
+}
+
+callback(e);
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.phonegap.cli.prototype.share" id="apidoc.element.phonegap.cli.prototype.share">
+        function <span class="apidocSignatureSpan">phonegap.cli.prototype.</span>share
+        <span class="apidocSignatureSpan">(argv, callback)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">share = function (argv, callback) {
+    var data = {
+        dropbox: argv.dropbox,
+        chrome: argv.chrome,
+        connect: argv.connect
+    };
+
+    phonegap.share(data, function(e) {
+        callback(e);
+    });
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+module.exports = function(argv, callback) {
+    var data = {
+        dropbox: argv.dropbox,
+        chrome: argv.chrome,
+        connect: argv.connect
+    };
+
+    phonegap.<span class="apidocCodeKeywordSpan">share</span>(data, function(e) {
+        callback(e);
+    });
+};
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.phonegap.cli.prototype.template" id="apidoc.element.phonegap.cli.prototype.template">
+        function <span class="apidocSignatureSpan">phonegap.cli.prototype.</span>template
+        <span class="apidocSignatureSpan">(argv, callback)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">template = function (argv, callback) {
+    var self = this;
+
+    // display help when given no command
+    if (argv._.length &lt;= 1) {
+        argv._[0] = 'template'; // replace recipe with template
+        argv._.unshift('help');
+        self.argv(argv, callback);
+        return;
+    }
+
+    // command is unknown
+    self.cli.unknown(argv, callback);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.phonegap.cli.prototype.unknown" id="apidoc.element.phonegap.cli.prototype.unknown">
+        function <span class="apidocSignatureSpan">phonegap.cli.prototype.</span>unknown
+        <span class="apidocSignatureSpan">(argv, callback)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">unknown = function (argv, callback) {
+    console.error(util.format(
+        "'%s' is not a %s command. See '%s help'",
+        argv._.join(' '),
+        argv.$0,
+        argv.$0
+    ));
+    callback();
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+filepath = filepath.replace('help.recipe', 'help.template');
+
+// full path
+filepath = path.join(basepath, filepath);
+
+// get help info and replace $0 with process name
+if (!fs.existsSync(filepath)) {
+    this.cli.<span class="apidocCodeKeywordSpan">unknown</span>(argv, callback);
+    return;
+}
+data = fs.readFileSync(filepath, 'utf8');
+data = data.trim().replace(/\$0/g, argv.$0);
+
+console.log('\n' + data + '\n');
+callback(null);
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.phonegap.cli.prototype.version" id="apidoc.element.phonegap.cli.prototype.version">
+        function <span class="apidocSignatureSpan">phonegap.cli.prototype.</span>version
+        <span class="apidocSignatureSpan">(argv, callback)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">version = function (argv, callback) {
+    console.log(phonegap.version().npm);
+    callback();
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+if (argv._[0] &amp;&amp; argv._[0].match(/cordova/i)) {
+    this.cordova(argv, callback);
+    return;
+}
+
+// --version
+if (argv.version || argv.v) {
+    this.<span class="apidocCodeKeywordSpan">version</span>(argv, callback);
+    return;
+}
+
+// --verbose
+if (argv.verbose || argv.d) {
+    argv.verbose = true;
+    phonegap.mode({ verbose: true });
+...</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.phonegap.command" id="apidoc.module.phonegap.command">module phonegap.command</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.phonegap.command.command" id="apidoc.element.phonegap.command.command">
+        function <span class="apidocSignatureSpan">phonegap.</span>command
+        <span class="apidocSignatureSpan">(phonegap)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function Command(phonegap) {
+    this.phonegap = phonegap;
+
+    var self = this;
+    return function() {
+        return self.run.apply(self, arguments);
+    };
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.phonegap.command.prototype" id="apidoc.module.phonegap.command.prototype">module phonegap.command.prototype</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.phonegap.command.prototype.run" id="apidoc.element.phonegap.command.prototype.run">
+        function <span class="apidocSignatureSpan">phonegap.command.prototype.</span>run
+        <span class="apidocSignatureSpan">(options, callback)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">run = function (options, callback) {
+    // subclasses should override this function
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+        host: argv.host,
+        port: argv.port,
+        path: argv.path,
+        proxy: argv.proxy
+    };
+
+    // run the project
+    phonegap.remote.<span class="apidocCodeKeywordSpan">run</span>(data, function(e, data) {
+        callback(e, data);
+    });
+};
+...</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.phonegap.connect_proxy" id="apidoc.module.phonegap.connect_proxy">module phonegap.connect_proxy</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.phonegap.connect_proxy.uploadAppZip" id="apidoc.element.phonegap.connect_proxy.uploadAppZip">
+        function <span class="apidocSignatureSpan">phonegap.connect_proxy.</span>uploadAppZip
+        <span class="apidocSignatureSpan">(options)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">uploadAppZip = function (options) {
+    _settings().then(settings =&gt; {
+        local_opt.path = "/__api__/appzip";
+        local_opt.port = options.port || 3000;
+
+        remote_opt.method = "POST";
+        remote_opt.path = "/";
+
+        var local_req = http.request(local_opt),
+            remote_req = http.request(remote_opt);
+
+        if (settings) {
+            remote_req.setHeader('Connect-API-Arg', JSON.stringify(settings));
+        }
+
+
+        remote_req.on('response', response =&gt; {
+            var data = '';
+            response.on('data', chunk =&gt; {
+                data += chunk;
+            });
+            response.on('end', chunk =&gt; {
+                if (response.statusCode === 200) {
+                    settings = JSON.parse(data);
+                    _settings(settings);
+                    if (settings.uploaded === true) {
+                        console.log(`Updating your app with ID ${settings.id}`);
+                    }
+                    local_req.setHeader('Host', `${remote_opt.hostname}:${remote_opt.port}/${settings.id}`);
+                    local_req.end();
+                } else {
+                    console.error('an error occurred', data);
+                }
+            });
+        });
+        local_req.on('response', (response) =&gt; {
+            remote_req = http.request(remote_opt);
+            if (!settings) {
+                throw new Error("No settings set. An error occurred");
+            }
+            remote_req.setHeader('Connect-API-Arg', JSON.stringify(settings));
+            remote_req.on('response', (response) =&gt; {
+                var data = '';
+                response.on('data', chunk =&gt; {
+                    data += chunk;
+                });
+                response.on('end', () =&gt; {
+                    var result = JSON.parse(data);
+                    if (response.statusCode === 200 &amp;&amp; result &amp;&amp; result.uploaded === true) {
+                        console.log(`Your app is available at http://${remote_opt.hostname}:${remote_opt.port}/${settings.id}`);
+                    }
+                });
+            });
+            response.pipe(remote_req);
+        });
+        remote_req.end();
+    });
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+              self.phonegap.emit('log', statusCode, url);
+          })
+          .on('update', function(c) {
+              if(options.connect === true) proxy.uploadUpdatedZip(options);
+          })
+          .on('complete', function(data) {
+              callback(null, data);
+              if(options.connect === true) proxy.<span class="apidocCodeKeywordSpan">uploadAppZip</span>(options);
+          });
+};
+
+// prepare to execute appropriate cordova hooks
+// try because cordova is shitting the bed on promise fulfillment
+try {
+    cordova.prepare([], function(err, data) {
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.phonegap.connect_proxy.uploadStatic" id="apidoc.element.phonegap.connect_proxy.uploadStatic">
+        function <span class="apidocSignatureSpan">phonegap.connect_proxy.</span>uploadStatic
+        <span class="apidocSignatureSpan">(archive, options)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">uploadStatic = function (archive, options) {
+    _settings().then(settings =&gt; {
+        remote_opt.method = "POST";
+        remote_opt.path = "/";
+
+        function upload() {
+            if (!settings) throw new Error("Not settings found. An error occurred");
+            var upload_req = http.request(remote_opt);
+            settings.chrome = true;
+            upload_req.setHeader('Connect-API-Arg', JSON.stringify(settings));
+            upload_req.on('response', (response) =&gt; {
+                var data = '';
+                response.on('data', chunk =&gt; {
+                    data += chunk;
+                });
+                response.on('end', () =&gt; {
+                    var result = JSON.parse(data);
+                    if (response.statusCode === 200 &amp;&amp; result &amp;&amp; result.uploaded === true) {
+                        console.log(`Your app will be available at http://share.phonegap.com/${settings.id} in a few minutes`);
+                    } else {
+                        console.log(result.message);
+                    }
+                });
+            });
+            archive.pipe(upload_req);
+            archive.finalize();
+        }
+
+
+        if (settings) {
+            upload();
+        } else {
+            var remote_req = http.request(remote_opt);
+            remote_req.on('response', response =&gt; {
+                var data = '';
+                response.on('data', chunk =&gt; {
+                    data += chunk;
+                });
+                response.on('end', chunk =&gt; {
+                    if (response.statusCode === 200) {
+                        settings = JSON.parse(data);
+                        _settings(settings);
+                        upload();
+                    } else {
+                        console.error('an error occurred', data);
+                    }
+                });
+            });
+            remote_req.end();
+        }
+    });
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+            throw new Error("This is not a phonegap project");
+        }
+        cordova.prepare({
+            verbose: true,
+            platforms: ["browser"]
+        }, function(err, data) {
+            dropbox.createZipArchive(path.join(projectRootPath, "platforms/browser/www")).then((archive) =&gt; {
+                proxy.<span class="apidocCodeKeywordSpan">uploadStatic</span>(archive, {});
+            }, (err) =&gt; {
+                console.log(err);
+            });
+        });
+    }
+};
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.phonegap.connect_proxy.uploadUpdatedZip" id="apidoc.element.phonegap.connect_proxy.uploadUpdatedZip">
+        function <span class="apidocSignatureSpan">phonegap.connect_proxy.</span>uploadUpdatedZip
+        <span class="apidocSignatureSpan">(options)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">uploadUpdatedZip = function (options) {
+    _settings().then(settings =&gt; {
+        if (!settings || !settings.id) throw new Error('Settings file could not be found!');
+        local_opt.path = "/__api__/update";
+        local_opt.port = options.port || 3000;
+        remote_opt.method = "PUT";
+        remote_opt.path = `/${settings.id}`;
+
+        var local_req = http.request(local_opt);
+
+        local_req.setHeader('Host', `${remote_opt.hostname}:${remote_opt.port}/${settings.id}`);
+
+        local_req.on('response', function(response) {
+            var remote_req = http.request(remote_opt);
+            remote_req.on('response', response =&gt; {
+                var data = '';
+                response.on('data', chunk =&gt; {
+                    data += chunk;
+                });
+                response.on('end', chunk =&gt; {
+                    settings = JSON.parse(data);
+                    if (settings &amp;&amp; settings.id) {
+                        _settings(settings);
+                        console.log(`Your app has been updated at http://${remote_opt.hostname}:${remote_opt.port}/${settings.id
+}`);
+                    } else {
+                        console.error(data);
+                    }
+                });
+            });
+            if (response.statusCode === 200) {
+                remote_req.setHeader('Connect-API-Arg', JSON.stringify(settings));
+                response.pipe(remote_req);
+            }
+        });
+        local_req.end();
+    });
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+              self.phonegap.emit('deviceConnected');
+          })
+          .on('error', _errorHandler)
+          .on('log', function(statusCode, url) {
+              self.phonegap.emit('log', statusCode, url);
+          })
+          .on('update', function(c) {
+              if(options.connect === true) proxy.<span class="apidocCodeKeywordSpan">uploadUpdatedZip</span>(options);
+          })
+          .on('complete', function(data) {
+              callback(null, data);
+              if(options.connect === true) proxy.uploadAppZip(options);
+          });
+};
+...</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.phonegap.console" id="apidoc.module.phonegap.console">module phonegap.console</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.phonegap.console.error" id="apidoc.element.phonegap.console.error">
+        function <span class="apidocSignatureSpan">phonegap.console.</span>error
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">error = function () {
+    var args = Array.prototype.slice.call(arguments);
+    args.unshift('   [error]'.red);
+    console.log.apply(this, format(args, '   [error]'.red));
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+ * Options:
+ *
+ *   - `argv` {Object} is an optimist object.
+ *   - `callback` {Function} is a completion callback.
+ */
+
+module.exports = function(argv, callback) {
+    console.<span class="apidocCodeKeywordSpan">error</span>(util.format(
+        "'%s' is not a %s command. See '%s help'",
+        argv._.join(' '),
+        argv.$0,
+        argv.$0
+    ));
+    callback();
+};
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.phonegap.console.log" id="apidoc.element.phonegap.console.log">
+        function <span class="apidocSignatureSpan">phonegap.console.</span>log
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">log = function () {
+    var args = Array.prototype.slice.call(arguments);
+    args.unshift('[phonegap]'.cyan);
+    console.log.apply(this, format(args, '[phonegap]'.cyan));
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+                // must use it before we change it
+                module.exports.trackEvent(argv._);
+                insight.optOut = true;
+            }
+            break;
+        case "reset" :
+            // this is a secret api, mainly just for testing the prompt messages
+            console.<span class="apidocCodeKeywordSpan">log</span>("resetting it .. ");
+            insight.optOut = undefined;
+            break;
+    }
+}
+if (insight.optOut === undefined) {
+} else {
+    // somewhat confusing tri-state, it could be true|false|undefined
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.phonegap.console.prompt" id="apidoc.element.phonegap.console.prompt">
+        function <span class="apidocSignatureSpan">phonegap.console.</span>prompt
+        <span class="apidocSignatureSpan">(options, callback)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">prompt = function (options, callback) {
+    // prompt setup
+    prompt.override = options.override;
+    prompt.colors = false;
+    prompt.message = '  [prompt]'.green;
+    prompt.delimiter = ' ';
+    prompt.start();
+
+    // begin prompting
+    prompt.get(options.data, callback);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+if (analytics.statusUnknown()) {
+    // if it is an analytics command, just run it
+    if (process.argv.length &gt; 2 &amp;&amp; process.argv[2] === 'analytics') {
+        runPhoneGapCommand();
+    }
+    else {
+        // otherwise prompt and then run it
+        analytics.<span class="apidocCodeKeywordSpan">prompt</span>(runPhoneGapCommand);
+    }
+}
+else {
+    runPhoneGapCommand();
+}
+
+/*!
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.phonegap.console.raw" id="apidoc.element.phonegap.console.raw">
+        function <span class="apidocSignatureSpan">phonegap.console.</span>raw
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">raw = function () {
+    var args = Array.prototype.slice.call(arguments);
+    console.log.apply(this, args);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.phonegap.console.warn" id="apidoc.element.phonegap.console.warn">
+        function <span class="apidocSignatureSpan">phonegap.console.</span>warn
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">warn = function () {
+    var args = Array.prototype.slice.call(arguments);
+    args.unshift(' [warning]'.yellow);
+    console.log.apply(this, format(args, ' [warning]'.yellow));
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.phonegap.dropbox" id="apidoc.module.phonegap.dropbox">module phonegap.dropbox</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.phonegap.dropbox.createZipArchive" id="apidoc.element.phonegap.dropbox.createZipArchive">
+        function <span class="apidocSignatureSpan">phonegap.dropbox.</span>createZipArchive
+        <span class="apidocSignatureSpan">(dir)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function createZipArchive(dir) {
+    return new Promise(function(resolve, reject) {
+        var archiver = require('archiver');
+
+        var archive = archiver('zip');
+
+        archive.on('error', function(err) {
+            reject(err);
+            throw err;
+        });
+        archive.directory(dir, 'www');
+        resolve(archive);
+    });
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+        if (projectRootPath === false) {
+            throw new Error("This is not a phonegap project");
+        }
+        cordova.prepare({
+            verbose: true,
+            platforms: ["browser"]
+        }, function(err, data) {
+            dropbox.<span class="apidocCodeKeywordSpan">createZipArchive</span>(path.join(projectRootPath, "platforms/browser
+/www")).then((archive) =&gt; {
+                proxy.uploadStatic(archive, {});
+            }, (err) =&gt; {
+                console.log(err);
+            });
+        });
+    }
+};
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.phonegap.dropbox.upload" id="apidoc.element.phonegap.dropbox.upload">
+        function <span class="apidocSignatureSpan">phonegap.dropbox.</span>upload
+        <span class="apidocSignatureSpan">(callback)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">upload = function (callback) {
+    createZipArchive(path.join(projectRootPath, 'www')).then((archive) =&gt; {
+        upload(archive).then(() =&gt; {
+            callback();
+        });
+    });
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+this.execute(options, callback);
+
+return this.phonegap;
+};
+
+ShareCommand.prototype.execute = function(options, callback) {
+if (options.dropbox === true) {
+    dropbox.<span class="apidocCodeKeywordSpan">upload</span>();
+} else if (options.connect === true) {
+    serve.create(options.phonegap)(options);
+} else {
+    var projectRootPath = require('../cordova').util.isCordova();
+    if (projectRootPath === false) {
+        throw new Error("This is not a phonegap project");
+    }
+...</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.phonegap.global" id="apidoc.module.phonegap.global">module phonegap.global</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.phonegap.global.load" id="apidoc.element.phonegap.global.load">
+        function <span class="apidocSignatureSpan">phonegap.global.</span>load
+        <span class="apidocSignatureSpan">(callback)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">load = function (callback) {
+    // require callback
+    if (!callback) {
+        throw new Error('missing callback argument');
+    }
+
+    var filepath = path.join(module.exports.path, 'config.json');
+
+    // check if config exists
+    fs.exists(filepath, function(exists) {
+        if (exists) {
+            // read config file
+            fs.readFile(filepath, function(e, data) {
+                if (e) {
+                    callback(e);
+                    return;
+                }
+
+                // return config file object
+                data = JSON.parse(data);
+                data.phonegap = data.phonegap || {};
+                callback(null, data);
+            });
+        }
+        else {
+            // create config file
+            var data = { phonegap: {} };
+            module.exports.save(data, function(e) {
+                if (e) {
+                    callback(e);
+                    return;
+                }
+
+                // return config file object
+                callback(null, data);
+            });
+        }
+    });
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+    // build the app
+    self.phonegap.remote.build(options, function(e, data) {
+        if (e) {
+callback(e);
+return;
+        }
+
+        config.global.<span class="apidocCodeKeywordSpan">load</span>(function(e, configData) {
+if (e) {
+    callback(e);
+    return;
+}
+
+// qrcode is url to download app
+var url = 'https://build.phonegap.com' +
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.phonegap.global.save" id="apidoc.element.phonegap.global.save">
+        function <span class="apidocSignatureSpan">phonegap.global.</span>save
+        <span class="apidocSignatureSpan">(data, callback)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">save = function (data, callback) {
+    // require data
+    if (!data) {
+        throw new Error('missing data argument');
+    }
+
+    // require callback
+    if (!callback) {
+        throw new Error('missing callback argument');
+    }
+
+    var filepath = path.join(module.exports.path, 'config.json');
+
+    // create the path
+    shell.mkdir('-p', path.dirname(filepath));
+
+    // write to config file
+    fs.writeFile(filepath, JSON.stringify(data), function(e) {
+        callback(e);
+    });
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+data.phonegap = data.phonegap || {};
+callback(null, data);
+            });
+        }
+        else {
+            // create config file
+            var data = { phonegap: {} };
+            module.exports.<span class="apidocCodeKeywordSpan">save</span>(data, function(e) {
+if (e) {
+    callback(e);
+    return;
+}
+
+// return config file object
+callback(null, data);
+...</pre></li>
+    </ul>
+
+
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.phonegap.hex" id="apidoc.module.phonegap.hex">module phonegap.hex</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.phonegap.hex.randomValueHex" id="apidoc.element.phonegap.hex.randomValueHex">
+        function <span class="apidocSignatureSpan">phonegap.hex.</span>randomValueHex
+        <span class="apidocSignatureSpan">(len)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">randomValueHex = function (len) {
+    return crypto.randomBytes(Math.ceil(len/2))
+        .toString('hex') // convert to hexadecimal format
+        .slice(0,len);   // return required number of characters
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+            _getToken().then((token) =&gt; {
+                resolve(token);
+            }).catch(() =&gt; {
+                const auth_url = "https://www.dropbox.com/oauth2/authorize";
+
+                const PORT = 1234;
+
+                var state = require('./util/hex').<span class="apidocCodeKeywordSpan">randomValueHex</span>(12);
+                var redirect_uri = "http://localhost:" + PORT;
+                const app_key = "2f1ec7whk04rhuq";
+
+                var params = util.format(`?response_type=token&amp;client_id=%s\
+&amp;redirect_uri=%s&amp;\
+state=%s`,
+app_key, redirect_uri, state);
+...</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.phonegap.mode" id="apidoc.module.phonegap.mode">module phonegap.mode</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.phonegap.mode.create" id="apidoc.element.phonegap.mode.create">
+        function <span class="apidocSignatureSpan">phonegap.mode.</span>create
+        <span class="apidocSignatureSpan">(phonegap)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">create = function (phonegap) {
+    return new ModeCommand(phonegap);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+ */
+
+function PhoneGap() {
+// initialize PhoneGap
+initialize.call(this);
+
+// initialize each command and inject the `phonegap` dependency.
+this.cordova = require('./phonegap/cordova').<span class="apidocCodeKeywordSpan">create</span>(this);
+this.create = require('./phonegap/create').create(this);
+this.mode = require('./phonegap/mode').create(this);
+this.template.list = require('./phonegap/template.list').create(this);
+this.template.search = require('./phonegap/template.search').create(this);
+this.remote.build = require('./phonegap/remote.build').create(this);
+this.remote.install = require('./phonegap/remote.install').create(this);
+this.remote.login = require('./phonegap/remote.login').create(this);
+...</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.phonegap.network" id="apidoc.module.phonegap.network">module phonegap.network</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.phonegap.network.isOnline" id="apidoc.element.phonegap.network.isOnline">
+        function <span class="apidocSignatureSpan">phonegap.network.</span>isOnline
+        <span class="apidocSignatureSpan">(callback)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">isOnline = function (callback) {
+    // This approach is very quick and appear to work correctly.
+    // However, the node.js documentation warns that `lookup`
+    // may not use the network connection.
+    //
+    // Reference: http://stackoverflow.com/questions/15270902/
+    //            check-for-internet-connectivity-in-nodejs
+    dns.lookup('google.com', function(e) {
+        if (e &amp;&amp; e.code === 'ENOTFOUND') {
+            callback(false);
+        }
+        else {
+            callback(true);
+        }
+    });
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.phonegap.opener" id="apidoc.module.phonegap.opener">module phonegap.opener</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.phonegap.opener.open" id="apidoc.element.phonegap.opener.open">
+        function <span class="apidocSignatureSpan">phonegap.opener.</span>open
+        <span class="apidocSignatureSpan">(args, options, callback)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function opener(args, options, callback) {
+    // http://stackoverflow.com/q/1480971/3191, but see below for Windows.
+    var command = process.platform === "win32" ? "cmd" :
+                  process.platform === "darwin" ? "open" :
+                  "xdg-open";
+
+    if (typeof args === "string") {
+        args = [args];
+    }
+
+    if (typeof options === "function") {
+        callback = options;
+        options = {};
+    }
+
+    if (options &amp;&amp; typeof options === "object" &amp;&amp; options.command) {
+        if (process.platform === "win32") {
+            // *always* use cmd on windows
+            args = [options.command].concat(args);
+        } else {
+            command = options.command;
+        }
+    }
+
+    if (process.platform === "win32") {
+        // On Windows, we really want to use the "start" command. But, the rules regarding arguments with spaces, and
+        // escaping them with quotes, can get really arcane. So the easiest way to deal with this is to pass off the
+        // responsibility to "cmd /c", which has that logic built in.
+        //
+        // Furthermore, if "cmd /c" double-quoted the first parameter, then "start" will interpret it as a window title,
+        // so we need to add a dummy empty-string window title: http://stackoverflow.com/a/154090/3191
+        //
+        // Additionally, on Windows ampersand needs to be escaped when passed to "start"
+        args = args.map(function(value) {
+            return value.replace(/&amp;/g, '^&amp;');
+        });
+        args = ["/c", "start", '""'].concat(args);
+    }
+
+    return childProcess.execFile(command, args, options, callback);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+callback = callback || function() {};
+
+// npmjs.com URL to filter by keyword
+var url = 'https://www.npmjs.com/browse/keyword/cordova:template';
+
+// open the URL to filter by keywords. This isn't ideal, but it's
+// the best that we can do until Apache Cordova improves plugins.cordova.io
+opener.<span class="apidocCodeKeywordSpan">open</span>(url);
+
+// trigger async callback
+process.nextTick(function() {
+    callback(null, data);
+});
+
+return self.phonegap;
+...</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.phonegap.platform" id="apidoc.module.phonegap.platform">module phonegap.platform</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.phonegap.platform.names" id="apidoc.element.phonegap.platform.names">
+        function <span class="apidocSignatureSpan">phonegap.platform.</span>names
+        <span class="apidocSignatureSpan">(platforms)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">names = function (platforms) {
+    platforms = platforms || [];
+
+    // filter out unsupported platforms
+    platforms = platforms.filter(function(platform) {
+        return module.exports.map[platform];
+    });
+
+    // map platform names
+    return platforms.map(function(platform) {
+        return module.exports.map[platform];
+    });
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+
+/*!
+ * Execute.
+ */
+
+RemoteBuildCommand.prototype.execute = function(options, callback) {
+var self = this,
+    platform = platforms.<span class="apidocCodeKeywordSpan">names</span>(options.platforms)[0];
+
+// change to project directory and delegate errors
+if (!project.cd({ emitter: self.phonegap, callback: callback })) return;
+
+// add platforms argument but keep the other options
+options.platforms = [ platform.remote ];
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.phonegap.platform.supports" id="apidoc.element.phonegap.platform.supports">
+        function <span class="apidocSignatureSpan">phonegap.platform.</span>supports
+        <span class="apidocSignatureSpan">(platforms)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">supports = function (platforms) {
+    var results = [];
+    var supported = module.exports.map;
+    var check = function(value) {
+        for (var i in supported) {
+            var plat = supported[i];
+            if (plat.local === value) {
+                return true;
+            }
+        }
+        return false;
+    };
+
+    if (!platforms.length) {
+        if (check(platforms)) {
+            results.push(platforms);
+        };
+    } else {
+        results = platforms.filter(function(value) {
+            return check(value);
+        });
+    }
+    return results;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.phonegap.project" id="apidoc.module.phonegap.project">module phonegap.project</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.phonegap.project.cd" id="apidoc.element.phonegap.project.cd">
+        function <span class="apidocSignatureSpan">phonegap.project.</span>cd
+        <span class="apidocSignatureSpan">(delegate)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">cd = function (delegate) {
+    var currentPath = process.cwd();
+
+    // is the current working directory the PhoneGap project?
+    if (cdvutil.isCordova(currentPath)) {
+        return currentPath;
+    }
+
+    // if not, step back a directory
+    process.chdir(path.join(currentPath, '..'));
+
+    // recursively try again, unless we're not at the system root (/ or C:/ or whatever)
+    if (process.cwd() !== currentPath) {
+        return module.exports.cd(delegate);
+    }
+
+    // notify delegate of error because we are at the system root
+    var e = new Error('project directory could not be found');
+    delegate.emitter.emit('error', e);
+    delegate.callback(e);
+
+    return null;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+ */
+
+RemoteBuildCommand.prototype.execute = function(options, callback) {
+var self = this,
+    platform = platforms.names(options.platforms)[0];
+
+// change to project directory and delegate errors
+if (!project.<span class="apidocCodeKeywordSpan">cd</span>({ emitter: self.phonegap, callback: callback })) return;
+
+// add platforms argument but keep the other options
+options.platforms = [ platform.remote ];
+
+phonegapbuild.build(options, function(e, data) {
+    if (e) {
+        callback(e);
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.phonegap.project.checkPlatform" id="apidoc.element.phonegap.project.checkPlatform">
+        function <span class="apidocSignatureSpan">phonegap.project.</span>checkPlatform
+        <span class="apidocSignatureSpan">(plat)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">checkPlatform = function (plat) {
+    var detected = listPlatforms();
+
+    if (detected.indexOf(plat) &gt; -1) {
+        return true;
+    }
+    return false;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.phonegap.project.isHome" id="apidoc.element.phonegap.project.isHome">
+        function <span class="apidocSignatureSpan">phonegap.project.</span>isHome
+        <span class="apidocSignatureSpan">(homePath)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">isHome = function (homePath) {
+    return (homePath === HOME);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.phonegap.project.listPlatforms" id="apidoc.element.phonegap.project.listPlatforms">
+        function <span class="apidocSignatureSpan">phonegap.project.</span>listPlatforms
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">listPlatforms = function () {
+    var platforms = cdvutil.listPlatforms('.');
+    return platforms;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+
+// project root will be false if it is not a cordova directory
+if (!projectRootPath) {
+    return callback(new Error('not a PhoneGap directory'));
+}
+
+var requestedPlatforms = match[2].trim().split(' '),
+    installedPlatforms = cordova.util.<span class="apidocCodeKeywordSpan">listPlatforms</span>(projectRootPath),
+    missingPlatforms = diff(requestedPlatforms, installedPlatforms);
+
+if (missingPlatforms.length &gt; 0) {
+    cordovaAddCommand += missingPlatforms.join(' ');
+    self.phonegap.cordova({
+        cmd: cordovaAddCommand,
+        verbose: options.verbose,
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.phonegap.project.readPackage" id="apidoc.element.phonegap.project.readPackage">
+        function <span class="apidocSignatureSpan">phonegap.project.</span>readPackage
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">readPackage = function () {
+    // load package.json
+    var packagePath = path.join(__dirname, '..', '..', '..', 'package.json');
+
+    return packageJSON = JSON.parse(fs.readFileSync(packagePath), 'utf8');
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+ * Returns:
+ *
+ *   {Object} that contains the versions.
+ */
+
+VersionCommand.prototype.run = function(options, callback) {
+// parse package.json
+var packageJSON = project.<span class="apidocCodeKeywordSpan">readPackage</span>();
+
+// get version
+var version = packageJSON.version;
+
+// parse version types
+return {
+    npm: version,
+...</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.phonegap.remote" id="apidoc.module.phonegap.remote">module phonegap.remote</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.phonegap.remote.remote" id="apidoc.element.phonegap.remote.remote">
+        function <span class="apidocSignatureSpan">phonegap.</span>remote
+        <span class="apidocSignatureSpan">(argv, callback)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">remote = function (argv, callback) {
+    var self = this;
+
+    // display help when given no command
+    if (argv._.length &lt;= 1) {
+        argv._.unshift('help');
+        self.argv(argv, callback);
+        return;
+    }
+
+    // command is unknown
+    self.cli.unknown(argv, callback);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.phonegap.remote.build" id="apidoc.element.phonegap.remote.build">
+        function <span class="apidocSignatureSpan">phonegap.remote.</span>build
+        <span class="apidocSignatureSpan">(argv, callback)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">build = function (argv, callback) {
+    // display help when missing required parameter &lt;platform&gt;
+    // $ phonegap remote build
+    if (argv._.length &lt;= 2) {
+        argv._.unshift('help');
+        this.cli.argv(argv, callback);
+        return;
+    }
+
+    // build data
+    var data = {
+        platforms: [argv._[2]],
+        protocol: argv.protocol,
+        host: argv.host,
+        port: argv.port,
+        path: argv.path,
+        proxy: argv.proxy
+    };
+
+    // build the project
+    phonegap.remote.build(data, function(e, data) {
+        callback(e, data);
+    });
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+
+/**
+* $ phonegap remote build &lt;platform&gt;
+*
+* Build a specific platform. Eventually, it should support building multiple
+* platforms.
+*
+* The `phonegap.remote.<span class="apidocCodeKeywordSpan">build</span>()` function will handle login requirements and
+* the login event handler is set with the CLI login function.
+*
+* Options:
+*
+*   - `argv` {Object} is an optimist object.
+*   - `callback` {Function} is a completion callback.
+*     - `e` {Error} is null unless there was an error.
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.phonegap.remote.install" id="apidoc.element.phonegap.remote.install">
+        function <span class="apidocSignatureSpan">phonegap.remote.</span>install
+        <span class="apidocSignatureSpan">(argv, callback)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">install = function (argv, callback) {
+    // display help when missing required parameter &lt;platform&gt;
+    if (argv._.length &lt;= 2) {
+        argv._.unshift('help');
+        this.cli.argv(argv, callback);
+        return;
+    }
+
+    // run data
+    var data = {
+        platforms: [argv._[2]],
+        protocol: argv.protocol,
+        host: argv.host,
+        port: argv.port,
+        path: argv.path,
+        proxy: argv.proxy
+    };
+
+    // run the project
+    phonegap.remote.install(data, function(e, data) {
+        callback(e, data);
+    });
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+        host: argv.host,
+        port: argv.port,
+        path: argv.path,
+        proxy: argv.proxy
+    };
+
+    // run the project
+    phonegap.remote.<span class="apidocCodeKeywordSpan">install</span>(data, function(e, data) {
+        callback(e, data);
+    });
+};
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.phonegap.remote.login" id="apidoc.element.phonegap.remote.login">
+        function <span class="apidocSignatureSpan">phonegap.remote.</span>login
+        <span class="apidocSignatureSpan">(argv, callback)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">login = function (argv, callback) {
+    // login credentials
+    var data = {
+        username: argv.username || argv.u,
+        password: argv.password || argv.p,
+        protocol: argv.protocol,
+        host: argv.host,
+        port: argv.port,
+        path: argv.path,
+        proxy: argv.proxy
+    };
+
+    phonegap.remote.login(data, function(e, api) {
+        callback(e, api);
+    });
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+       protocol: argv.protocol,
+       host: argv.host,
+       port: argv.port,
+       path: argv.path,
+       proxy: argv.proxy
+   };
+
+   phonegap.remote.<span class="apidocCodeKeywordSpan">login</span>(data, function(e, api) {
+       callback(e, api);
+   });
+};
+
+/**
+* Bind login event handler.
+*
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.phonegap.remote.logout" id="apidoc.element.phonegap.remote.logout">
+        function <span class="apidocSignatureSpan">phonegap.remote.</span>logout
+        <span class="apidocSignatureSpan">(argv, callback)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">logout = function (argv, callback) {
+    phonegap.remote.logout(argv, function(e) {
+        callback(e);
+    });
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+ * Options:
+ *
+ *   - `argv` {Object} is an optimist object.
+ *   - `callback` {Function} is a completion callback.
+ */
+
+module.exports = function(argv, callback) {
+    phonegap.remote.<span class="apidocCodeKeywordSpan">logout</span>(argv, function(e) {
+        callback(e);
+    });
+};
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.phonegap.remote.run" id="apidoc.element.phonegap.remote.run">
+        function <span class="apidocSignatureSpan">phonegap.remote.</span>run
+        <span class="apidocSignatureSpan">(argv, callback)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">run = function (argv, callback) {
+    // display help when missing required parameter &lt;platform&gt;
+    if (argv._.length &lt;= 2) {
+        argv._.unshift('help');
+        this.cli.argv(argv, callback);
+        return;
+    }
+
+    // run data
+    var data = {
+        platforms: [argv._[2]],
+        protocol: argv.protocol,
+        host: argv.host,
+        port: argv.port,
+        path: argv.path,
+        proxy: argv.proxy
+    };
+
+    // run the project
+    phonegap.remote.run(data, function(e, data) {
+        callback(e, data);
+    });
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+        host: argv.host,
+        port: argv.port,
+        path: argv.path,
+        proxy: argv.proxy
+    };
+
+    // run the project
+    phonegap.remote.<span class="apidocCodeKeywordSpan">run</span>(data, function(e, data) {
+        callback(e, data);
+    });
+};
+...</pre></li>
+    </ul>
+
+
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.phonegap.sanitize_args" id="apidoc.module.phonegap.sanitize_args">module phonegap.sanitize_args</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.phonegap.sanitize_args.filterParameters" id="apidoc.element.phonegap.sanitize_args.filterParameters">
+        function <span class="apidocSignatureSpan">phonegap.sanitize_args.</span>filterParameters
+        <span class="apidocSignatureSpan">(args)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function filterParameters(args) {
+    var params = [];
+    if (args.length === 0) return params;
+    if (indexOfAny(args,["help","--help","-h"]) &gt; -1) {
+        params = args.slice(1);
+    } else {
+        var cmd = args[0].toLowerCase();
+        switch(cmd) {
+            case "template" : // these choices log ALL args
+            case "build"    :
+            case "prepare"  :
+            case "compile"  :
+            case "emulate"  :
+            case "install"  :
+            case "version"  :
+            case "-v"       :
+            case "info"     :
+            case "run"      :
+                // add 'em all if they exist
+                if (args.length &gt; 1) {
+                    params = args.slice(1);
+                }
+                break;
+            case "serve"  : // for these commands, we do not want to log anything beyond just the command
+            case "app" :
+            case "create" :
+            case "push" :
+                break;
+            case "cordova" : // log `cordova + command`
+            case "local" : // log `local + command`
+                // these commands need recursive parsing of parameters - invoke one more time
+                params = filterParameters(args.slice(1)); // recurse
+                break;
+            case "platforms": // this is an alias, just fall thru
+            case "platform" :
+            case "plugins": // alias fall thru
+            case "plugin" :
+                // For the list commands, log all arguments.
+                if (indexOfAny(args,["list","ls"]) &gt; -1) {
+                    params = args.slice(1);
+                } else {
+                    // for the add+rm command, we dont log _which_ plugins/platforms are
+                    // being added/removed.
+                    // TODO: perhaps we should log core plugins?
+                    params = [args[1]];
+                    if (["platform", "platforms"].indexOf(cmd) &gt; -1) {
+                        // For platforms add/rm, for certain specific platforms, we log
+                        // which platform is being managed.
+                        // TODO: only pull out local dir platforms
+                        // cordova-platform-id should be fine
+                        // git urls (may) be fine ??
+                        // ios, android, windows, wp8, ...
+                        if (args[2] &amp;&amp; ["android","ios","wp8","windows"].indexOf(args[2]) &gt; -1) {
+                            params.push(args[2]);
+                        }
+                    }
+                }
+                break;
+            case "remote" :
+                // login needs special treatment
+                if (args.length &gt; 2 &amp;&amp; args[1].toLowerCase() == "login") {
+                    params = ["login"];
+                } else { // logout, build, install, run &lt;platform&gt;
+                    params = args.slice(1);
+                }
+                break;
+        }
+    }
+    return filterSwitches(params);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+    if (module.exports.hasOptedOut() === false) {
+if (cleanedResult.command) {
+    // If we have a command parsed out, send it off to metrics
+    var info = basicGELF();
+    info.short_message = sanitizeArgs.getCommand(args);
+    info._flags = sanitizeArgs.getSwitches(args);
+    info._exitCode = exitCode;
+    info._params = sanitizeArgs.<span class="apidocCodeKeywordSpan">filterParameters</span>(args);
+    if (error) {
+        if (error.stack) info._error_stack = error.stack;
+        if (error.output) info._error_msg = error.output;
+    }
+    sendAnalytics(info);
+}
+category = category || "-";
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.phonegap.sanitize_args.getCommand" id="apidoc.element.phonegap.sanitize_args.getCommand">
+        function <span class="apidocSignatureSpan">phonegap.sanitize_args.</span>getCommand
+        <span class="apidocSignatureSpan">(args)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function getCommand(args) {
+    var cmd = args[0] || "help"; // if no command is passed, assume it is help
+    if (cmd.toLowerCase() == "cordova" || cmd.toLowerCase() == "local") {
+        cmd += ":" + args[1];
+    }
+    return cmd;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+var action = cleanedResult.params;
+var label = exitCode + "";
+var value = cleanedResult.count;
+if (module.exports.hasOptedOut() === false) {
+    if (cleanedResult.command) {
+        // If we have a command parsed out, send it off to metrics
+        var info = basicGELF();
+        info.short_message = sanitizeArgs.<span class="apidocCodeKeywordSpan">getCommand</span>(args);
+        info._flags = sanitizeArgs.getSwitches(args);
+        info._exitCode = exitCode;
+        info._params = sanitizeArgs.filterParameters(args);
+        if (error) {
+            if (error.stack) info._error_stack = error.stack;
+            if (error.output) info._error_msg = error.output;
+        }
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.phonegap.sanitize_args.getSwitches" id="apidoc.element.phonegap.sanitize_args.getSwitches">
+        function <span class="apidocSignatureSpan">phonegap.sanitize_args.</span>getSwitches
+        <span class="apidocSignatureSpan">(args)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function getSwitches(args) {
+    return args.filter(function(arg) { // only switch elems
+        return arg &amp;&amp; arg.indexOf("-") === 0 &amp;&amp; arg != "-v";
+    }).map(function(elem) { // remove anything after an '='
+        return elem.split("=")[0];
+    });
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+var label = exitCode + "";
+var value = cleanedResult.count;
+if (module.exports.hasOptedOut() === false) {
+    if (cleanedResult.command) {
+        // If we have a command parsed out, send it off to metrics
+        var info = basicGELF();
+        info.short_message = sanitizeArgs.getCommand(args);
+        info._flags = sanitizeArgs.<span class="apidocCodeKeywordSpan">getSwitches</span>(args);
+        info._exitCode = exitCode;
+        info._params = sanitizeArgs.filterParameters(args);
+        if (error) {
+            if (error.stack) info._error_stack = error.stack;
+            if (error.output) info._error_msg = error.output;
+        }
+        sendAnalytics(info);
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.phonegap.sanitize_args.stringifyForGoogleAnalytics" id="apidoc.element.phonegap.sanitize_args.stringifyForGoogleAnalytics">
+        function <span class="apidocSignatureSpan">phonegap.sanitize_args.</span>stringifyForGoogleAnalytics
+        <span class="apidocSignatureSpan">(args)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">stringifyForGoogleAnalytics = function (args) {
+    args = args || [];
+    var argsToLog = {"command":"-", "params":"-","count":0};
+
+    if (args.length &gt; 0) {
+        argsToLog.command = getCommand(args);
+        argsToLog.count = args.length;
+        var filteredParams = filterParameters(args);
+        argsToLog.params = filteredParams.join() || "-";
+        if (["platform", "platforms"].indexOf(args[0].toLowerCase()) &gt; -1) {
+            var subCommand = filteredParams[0] ? filteredParams[0] : "-";
+            if (["add", "rm", "remove"].indexOf(subCommand) &gt; -1) {
+                var platform = filteredParams[1];
+                // todo: only pull out local dir platforms
+                // cordova-platform-id should be fine
+                // git urls (may) be fine ??
+                // ios, android, windows, wp8, ...
+                if (platform &amp;&amp; ["android","ios","wp8","windows"].indexOf(platform) &gt; -1) {
+                    subCommand += ":" + platform;
+                }
+                argsToLog.params = subCommand;
+            }
+        }
+        // Tack on switches at the end, or if there are no parameters, replace with just switches
+        var switches = getSwitches(args);
+        if (switches.length) {
+            if (argsToLog.params == "-") {
+                argsToLog.params = "" + switches;
+            } else {
+                argsToLog.params += " " + switches;
+            }
+        }
+    }
+    return argsToLog;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+};
+
+module.exports.trackEvent = function trackEvent(args, error) {
+// if we received an error, then we will exit with an error status
+// if an exit code was attached to the error, then use it
+// otherwise default to 1.
+var exitCode = error ? error.exitCode || 1 : 0;
+var cleanedResult = sanitizeArgs.<span class="apidocCodeKeywordSpan">stringifyForGoogleAnalytics</span>(args);
+var category = cleanedResult.command;
+var action = cleanedResult.params;
+var label = exitCode + "";
+var value = cleanedResult.count;
+if (module.exports.hasOptedOut() === false) {
+    if (cleanedResult.command) {
+        // If we have a command parsed out, send it off to metrics
+...</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.phonegap.template" id="apidoc.module.phonegap.template">module phonegap.template</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.phonegap.template.template" id="apidoc.element.phonegap.template.template">
+        function <span class="apidocSignatureSpan">phonegap.</span>template
+        <span class="apidocSignatureSpan">(argv, callback)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">template = function (argv, callback) {
+    var self = this;
+
+    // display help when given no command
+    if (argv._.length &lt;= 1) {
+        argv._[0] = 'template'; // replace recipe with template
+        argv._.unshift('help');
+        self.argv(argv, callback);
+        return;
+    }
+
+    // command is unknown
+    self.cli.unknown(argv, callback);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.phonegap.template.list" id="apidoc.element.phonegap.template.list">
+        function <span class="apidocSignatureSpan">phonegap.template.</span>list
+        <span class="apidocSignatureSpan">(argv, callback)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">list = function (argv, callback) {
+    phonegap.template.list({}, function(e, data) {
+        // calculate the width of the name row.
+        // the width minus the current name will give us the indentation width
+        // to align the names and descriptions
+        var maxLength = 0;
+        data.templates.forEach(function(template) {
+            maxLength = Math.max(maxLength, template.name.length);
+        });
+        maxLength += 4; // space between the longest name and description
+
+        // display all templates
+        data.templates.forEach(function(template) {
+            var indent = new Array(maxLength - template.name.length).join(' ');
+            phonegap.emit('raw', template.name + indent + template.description);
+        });
+
+        callback();
+    });
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+ * Options:
+ *
+ *   - `argv` {Object} is an optimist object.
+ *   - `callback` {Function} is null unless there is an error.
+ */
+
+module.exports = function(argv, callback) {
+phonegap.template.<span class="apidocCodeKeywordSpan">list</span>({}, function(e, data) {
+    // calculate the width of the name row.
+    // the width minus the current name will give us the indentation width
+    // to align the names and descriptions
+    var maxLength = 0;
+    data.templates.forEach(function(template) {
+        maxLength = Math.max(maxLength, template.name.length);
+    });
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.phonegap.template.search" id="apidoc.element.phonegap.template.search">
+        function <span class="apidocSignatureSpan">phonegap.template.</span>search
+        <span class="apidocSignatureSpan">(argv, callback)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">search = function (argv, callback) {
+    phonegap.template.search({}, function(e, data) {
+        callback();
+    });
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+ * Options:
+ *
+ *   - `argv` {Object} is an optimist object.
+ *   - `callback` {Function} is null unless there is an error.
+ */
+
+module.exports = function(argv, callback) {
+    phonegap.template.<span class="apidocCodeKeywordSpan">search</span>({}, function(e, data) {
+        callback();
+    });
+};
+...</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.phonegap.update_check" id="apidoc.module.phonegap.update_check">module phonegap.update_check</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.phonegap.update_check.start" id="apidoc.element.phonegap.update_check.start">
+        function <span class="apidocSignatureSpan">phonegap.update_check.</span>start
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">start = function () {
+    var notifier = updateNotifier({
+        pkg: pkg
+    });
+
+    notifier.notify();
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+CLI.prototype.share = require('./cli/share');
+CLI.prototype['report-issue'] = require('./cli/report-issue');
+
+/*!
+* Check for updated CLI (if it was not spawned from the Desktop app)
+*/
+if (!process.env.ELECTRON_RUN_AS_NODE) {
+   updateCheck.<span class="apidocCodeKeywordSpan">start</span>();
+}
+
+
+/*!
+* CLI messages.
+*/
+...</pre></li>
     </ul>
 
 
